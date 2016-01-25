@@ -1,0 +1,213 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>A Different View</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=21e155d081">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Functionally Perplexed!">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="A Different View">
+    <meta property="og:description" content="I've been working on a kivy-based project for a little but, but I've been running into a couple of issues getting it all to just &quot;work&quot; cross-platform. I have a feeling that this is due to the fact that kivy...">
+    <meta property="og:url" content="http://localhost:2368/2015/11/21/a-different-view/">
+    <meta property="article:published_time" content="2015-11-22T05:50:45.368Z">
+    <meta property="article:modified_time" content="2015-11-22T05:50:45.365Z">
+    <meta property="article:tag" content="HTML5">
+    <meta property="article:tag" content="CSS">
+    <meta property="article:tag" content="JavaScript">
+    <meta property="article:tag" content="Madness">
+    <meta property="article:tag" content="Rant">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="A Different View">
+    <meta name="twitter:description" content="I've been working on a kivy-based project for a little but, but I've been running into a couple of issues getting it all to just &quot;work&quot; cross-platform. I have a feeling that this is due to the fact that kivy...">
+    <meta name="twitter:url" content="http://localhost:2368/2015/11/21/a-different-view/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Functionally Perplexed!",
+    "author": {
+        "@type": "Person",
+        "name": "Lament Configuration",
+        "url": "http://localhost:2368/author/the-perplexed-one",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "A Different View",
+    "url": "http://localhost:2368/2015/11/21/a-different-view/",
+    "datePublished": "2015-11-22T05:50:45.368Z",
+    "dateModified": "2015-11-22T05:50:45.365Z",
+    "keywords": "HTML5, CSS, JavaScript, Madness, Rant",
+    "description": "I&#x27;ve been working on a kivy-based project for a little but, but I&#x27;ve been running into a couple of issues getting it all to just &quot;work&quot; cross-platform. I have a feeling that this is due to the fact that kivy..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Functionally Perplexed!" href="../../../../rss/index.html">
+</head>
+<body class="post-template tag-html5 tag-css tag-javascript tag-madness tag-rant nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../../../../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-html5 tag-css tag-javascript tag-madness tag-rant">
+
+        <header class="post-header">
+            <h1 class="post-title">A Different View</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-11-21">21 November 2015</time>  on <a href="../../../../tag/html5/">HTML5</a>, <a href="../../../../tag/css/">CSS</a>, <a href="../../../../tag/javascript/">JavaScript</a>, <a href="../../../../tag/madness/">Madness</a>, <a href="../../../../tag/rant/">Rant</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>I've been working on a kivy-based project for a little but, but I've been running into a couple of issues getting it all to just "work" cross-platform. I have a feeling that this is due to the fact that kivy has to "contain" features of the Python language that can't/won't translate into cross-platform native code. This got me thinking about how the difficulties are due to this, and a more elegant way would be to take a language that may (or may not) be missing some of the features (inherently), but can be extended to actually fill the need. Also, Python isn't "native" on the mobile platforms, and was/is not designed primarily to be a compiled language. I still love Python, it is (and will remain) my go-to for a "systems" glue language, build scripts, and all sorts of fun projects, but for cross-platform apps, that do not require a lot of deep hardware access, there is a much better approach.</p>
+
+<p>Enter the HTML5/CSS/JavaScript combination!</p>
+
+<p>Wait, aren't those things used on web pages? Yes, they are, and that is where the magic happens! There have been many advancements in these technologies, and some (surprising?) twists along the way.</p>
+
+<p>Browsers, and the internet have come a long way in the last 5-10 years, from tiny little Flash clips being "big" video style data. To streaming HD in real time while doing (many?) other things as well. The availability of bandwidth has driven consumers to want to see higher quality in real time over the internet. The Browsers have tried very hard to keep up with the expectations of the consumers, with languages like HTML, CSS, and JavaScript constantly evolving (while maintaining backwards compatibility, for the sake of ancient webpages that haven't been updated since before the turn of the century) to handle these demands in elegant and efficient ways (some might argue that browsers are getting bloated, but that is not relevant to this topic).</p>
+
+<p>Mobile devices (and those that share an architecture with them, like tablets), operate with lower power tech, so slower processors, less memory, etc. than a desktop/laptop/notebook. These manufacturers are always looking for a way to leverage something they already have to include on the device, to serve as a backbone for other things. Realistically, a 5mb "core" app being used to support 10 2mb apps, will take up less space than 10 4mb apps (*numbers invented, not representative of any specific app/os/etc.).</p>
+
+<p>Enter using the browser as a "container" for apps, and why not? It already has very solid rendering capabilities (which are only getting better, with the ability to tap into a dedicated GPU if it is present), and is <strong>designed</strong> for interacting with the user and presenting data from various different sources. The exciting part is that many technologies have been created to be able to harness the power of a modern browser, and use it as a stand-alone app (without the overhead of all the "browser-y" features).</p>
+
+<p>HTML5 and CSS3 are incredibly expressive languages for designing webpages, creating all sorts of varied "interfaces" for different applications. Long gone are using very simple and basic "markup" on the web, everything is dynamic, interactive, personalized and tailored to the individual using it. While this is key to developing/presenting/deploying a successful application, it is not (inherently) where my interests lie, so I'm just going to mention them as needed when touching on JavaScript (in general).</p>
+
+<p>Now... JavaScript, the "engine" of a "webapp." Years ago, I would have never thought JavaScript would become capable of being anything outside of a scripting language for the web, trapped inside a browser to limit the potential dangers of "bad/malicious" code. JavaScript is actually a very interesting and expressive language with a name that (burdens?) it with an unjust "mental relation" to Java (for most). Other than the word "java", a c-like syntax, and being "born" as technologies designed to embrace the internet, they really don't have that much in common "under the hood" (which is where the real power of any language lies).</p>
+
+<p>I am very new to these technologies, just starting to dig in and get familiar with them, so I do apologize for any (hopefully minor) inaccuracies presented. From what I have gathered so far, the way this all works (apps based in browsers) is: There is a small application that serves to hold both a minimal browser (the "frontend") to serve as a UI for the application, and a minimalistic "server" (based on JavaScript). The "container" is used to translate the "standardized" server IO (for saving, hardware interaction, etc.) into the commands needed to do this on the specific Hardware target.</p>
+
+<p>The beauty behind all of this is that the app can be coded <em>identically</em> for all the platforms, as the browser "container" will handle all of the needed interfacing between the JavaScript and native hardware. Sure, there will be an overhead imposed, it is (probably) not idea for creating something that needs to run as close to the metal as possible to eek out every single drop of performance. But, as I've written about before, the ability to quickly create and deploy an app that is very accessible, can often be much more beneficial than eeking out every last drop of performance, but needing to maintain multiple codebases.</p>
+
+<p>These technologies are "hot" there are lot of smart people working very hard to make them work, and arguably work "the hardest" since they target the largest audience of any approach to development (again, just about everyone has access to a modern browser), there is a lot of "pressure" to make things work right, all the time, every time, all while incorporating and utilizing new technologies at a very rapid pace.</p>
+
+<p>Ironically, this blog makes use of these technologies (and a little bit of Python on my end), so that I can avoid having to host it on one of the "major" blogsites (for various reasons)!</p>
+
+<p>This blog is created with "Ghost." Ghost is a JavaScript/node.js application to "host" a blog on a local node server. And being an application that makes webpages, it obviously uses html/css. The bit of python is a module called "buster" that generates publishable webpages from the server while it is running.</p>
+
+<p>I know this post got a little rambly, and possibly a bit tangential and disjointed. I hope to follow up in the near future with posts going into more of the details behind all of this.</p>
+
+<p>--The Perplexed One</p>
+
+<p>(Pleasantly overwhelmed by new information!)</p>
+
+<p><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">http://lamentconfiguration.github.io/PerplexedBlogging/</a></p>
+        </section>
+
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'perplexedblogging'; // required: replace example with your forum shortname
+	    var disqus_identifier = '';
+ 
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../../../../author/the-perplexed-one/">Lament Configuration</a></h4>
+
+                    <p>Read <a href="../../../../author/the-perplexed-one/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=A%20Different%20View&amp;url=http://localhost:2368/2015/11/21/a-different-view/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/11/21/a-different-view/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2015/11/21/a-different-view/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../24/a-bit-on-topic-and-a-byte-off-topic/">
+        <section class="post">
+            <h2>A Bit On Topic, and A Byte Off Topic</h2>
+            <p>(Note: As the Author, I hereby reserve the right to reuse titles at any time, and to start a…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../17/some-links-ive-enjoyed/">
+        <section class="post">
+            <h2>Some Links I've Enjoyed</h2>
+            <p>-- Very tired, but I wanted to share some of the things I've been reading and learning from lately.…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../../../../">Functionally Perplexed!</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=21e155d081"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=21e155d081"></script>
+
+</body>

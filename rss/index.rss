@@ -1,0 +1,483 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Functionally Perplexed!</title><description>Puzzling out functional code, one lambda at a time...
+(and other perplexed ponderings).</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 25 Jan 2016 02:56:37 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>A (relatively) Short Strange Trip...</title><description>&lt;p&gt;It has been quite some time since I've tormented you few readers...&lt;/p&gt;
+
+&lt;p&gt;I feel I have a lot to make up for in this regard. While I've been silent on the blogging front, the gears have been churning and grinding away.&lt;/p&gt;
+
+&lt;p&gt;Alas, I've not had much time to code, due&lt;/p&gt;</description><link>http://localhost:2368/2016/01/24/a-relatively-short-strange-trip/</link><guid isPermaLink="false">0aba9ea9-c18c-46d2-8050-853e8043e874</guid><category>Lisp</category><category>Scheme</category><category>Clojure</category><category>Haskell</category><category>Random</category><dc:creator>Lament Configuration</dc:creator><pubDate>Mon, 25 Jan 2016 02:50:54 GMT</pubDate><content:encoded>&lt;p&gt;It has been quite some time since I've tormented you few readers...&lt;/p&gt;
+
+&lt;p&gt;I feel I have a lot to make up for in this regard. While I've been silent on the blogging front, the gears have been churning and grinding away.&lt;/p&gt;
+
+&lt;p&gt;Alas, I've not had much time to code, due to it being quite busy at my "real" job, the holidays, and catching quite a powerful flu bug.&lt;/p&gt;
+
+&lt;p&gt;However, none of this prevented me from googling and dabbling in things, and I've come around to a few realizations about myself as a coder, what I want to do coding, and more importantly, why I want to do these things.&lt;/p&gt;
+
+&lt;p&gt;I've realized that I'm one of those strange (few?) who actually prefer the way a lisp-esq language "works" (both syntactically and semantically), and I shouldn't worry too much about this due to the wonderful power of transpilers (a story for another time). The functional basis of a lisp just really works with how I envision code and how it "works" without forcing me to only use that paradigm when designing a program.&lt;/p&gt;
+
+&lt;p&gt;What I want to do in coding (long term at least) hasn't changed much, but I have redirected my short term goals a bit in order to get my feet wet with some real-world projects a bit quicker (hopefully).&lt;/p&gt;
+
+&lt;p&gt;Why I want to do it is not just "to do it" anymore, but "to do it &lt;strong&gt;my&lt;/strong&gt; way." This isn't to say that I will not be using frameworks, libraries, etc. but that I'll be using things that "mesh" with how I approach a problem, instead of trying to teach my old brain new ways of thinking.&lt;/p&gt;
+
+&lt;p&gt;With all this in mind, I've set a new roadmap for myself (again!? yes... again!) and development.&lt;/p&gt;
+
+&lt;p&gt;My great and overbearing long-term focus will be on lisp-esq languages. I also want to "understand" Haskell, and FORTH.&lt;/p&gt;
+
+&lt;p&gt;Short-term I'm going to focus on Clojure and ClojureScript for "run anywhere" type programs (be it the web, or JVM), and digging deeper into lisp-esq languages, while having interop with a plethora of incredible libraries. When needed, I will use Go, and Python (3, not 2) to serve as glue in situations where spinning up a JVM for Clojure, or using Node.js with Clojurescript is not a good idea. This combination should allow me to cover all the bases when it comes to deploying any type of application that I can dream up.&lt;/p&gt;
+
+&lt;p&gt;Mid-term I'm going to focus on learning Scheme (probably R7RS) and Common Lisp (CCL or SBCL). I'm going to stick to just using them for "local" applications, data handling, etc. in order to familiarize myself with how they work, without having to really dig into making non-native libraries work. I also plan on familiarizing myself with ABCL and Kawa Scheme in order to bring the advantages of those lisp dialects to the JVM.&lt;/p&gt;
+
+&lt;p&gt;Long-term I truly hope to be able to find a way, or be a part of a renaissance for lisp. How this will come along, I have no idea. I just hope that it does, and I hope to be a part of it.&lt;/p&gt;
+
+&lt;p&gt;Regading Haskell. Someday I hope to be able to "understand" Haskell, but I really do not think that long-term it is the ideal language for me. I keep reminding myself of my own comparison of Haskell to Theoretical Physics: They are both fascinating things which I can appreciate, and comprehend when explained in layman's terms, but they are not something that I am inherently comfortable dabbling with and trying to develop on my own. Perhaps one day this will change, but I will not consider learning Haskell a "bust" if it does not. The mathematical elegance and beauty of the language is just something that truly fascinates me. Likewise, FORTH fascinates me, but more in how similar it is to Lisp, in that you build the language to fit your program, instead of making your program fit the constraints of the language.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Introspection, reflection...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A Bit On Topic, and A Byte Off Topic</title><description>&lt;p&gt;(Note: As the Author, I hereby reserve the right to reuse titles at any time, and to start a post with a parenthesis.)&lt;/p&gt;
+
+&lt;p&gt;Ahhh, the holidays... such a wonderful time to have to deal with the general public &gt;.&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;... No, I'm not going to stray that far off topic, in&lt;/p&gt;</description><link>http://localhost:2368/2015/11/24/a-bit-on-topic-and-a-byte-off-topic/</link><guid isPermaLink="false">43a8f511-c812-456d-8df7-4fba0753e77e</guid><category>HTML5</category><category>JavaScript</category><category>Linux</category><dc:creator>Lament Configuration</dc:creator><pubDate>Tue, 24 Nov 2015 23:41:59 GMT</pubDate><content:encoded>&lt;p&gt;(Note: As the Author, I hereby reserve the right to reuse titles at any time, and to start a post with a parenthesis.)&lt;/p&gt;
+
+&lt;p&gt;Ahhh, the holidays... such a wonderful time to have to deal with the general public &gt;.&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;... No, I'm not going to stray that far off topic, in fact, let's just start off "on" topic shall we?&lt;/p&gt;
+
+&lt;p&gt;I have gained an &lt;em&gt;immense&lt;/em&gt; level of respect for the HTML/CSS and JavaScript combination over the last few days. Mostly through quickly brushing up on them as individual entities, their combined power has made sense to me.&lt;/p&gt;
+
+&lt;p&gt;Firstly, let me get out of the way, that this "web-tech" stack, is not flawless, it does have its compromises, and it is in no way perfect. However, it &lt;strong&gt;is&lt;/strong&gt; extremely flexible and adaptable. The targetable platforms are: "Just about anything that can run a modern browser." This ability, to have &lt;em&gt;one&lt;/em&gt; codebase for something that can reach out to a HUGE amount of people, is pretty sweet indeed. This webstack(HTML/CSS/JavaScript) &lt;em&gt;is&lt;/em&gt; what frameworks for other languages (like Kivy for Python) are trying to create, but Kivy (for example) tries to keep it as "Python" as possible (which has some upsides (same language across all files) and downsides (integrating with different APIs). This isn't to say that the Kivy way is "wrong" it is just different. Being closer to the metal, a framework like Kivy will have some performance advantages for more demanding things, yes, but again, it will require hand-tweaked code for optimization across different platforms (although, if you aren't expecting this, you haven't looked into crosss-platform coding...).&lt;/p&gt;
+
+&lt;p&gt;The webstack does add another layer (the browser) between the program and the metal, but the technologies being developed for browsers are nothing short of incredible at this point. The "Browser" is quickly becoming a container for all sorts of capabilities on the web. Hell, WebGL allows webpages to directly access the GPU now. No, we won't be seeing an engine to kill UE4/Crysis/etc. in the browser any time soon (I will gladly be wrong about that too...), but the content of webapps/webpages just took a huge leap forward. These browser developments are also what inspired the creation of tools to be able to utilize the webstack on the desktop. In a way, if you look at it. The browser itself becomes the "framework" for the application (a perfect example of leveraging technology that already works well to one's advantage).&lt;/p&gt;
+
+&lt;p&gt;Now, on to the fact that this is a "stack" and not a singular language. Yes, they are different, arguably completely different... but &lt;em&gt;this is ok!&lt;/em&gt; Hell, for me, this is more than "ok" it is freakin awesome! Realistically, they all serve a different purpose, and this makes it a lot easier for me to visualize how each part of the project will come together, and it also allows for easier task division on a project. As long as everyone adheres to the same standards in the project, most (if not everything) should just be able to "come together" in the end. In this environment, HTML is used to "lay out" the user experience, to position elements, and serve as the go-between for the program and user. CSS is used to give much more flexibility when it comes to the actual appearance of the HTML, think of the HTML as the building itself (walls, floors, ceilings, doorways, window frames, etc.), and the CSS as the decorations (wallpaper, carpet, light fixutres, doors, windows/curtains, etc.). In this context, you wouldn't hire an interior decorator to design your house, or an architect to coordinate your drapes with your furniture (would you? I know I wouldn't...).&lt;/p&gt;
+
+&lt;p&gt;While they are different aspects of the design, HTML and CSS are both design languages (primarily, HTML does have some tricks up its sleeve, but it is still a markup/rendering language at heart), and this is what brings us to JavaScript, the "engine" behind the webapp. JavaScript has a very humble beginning as a scripting language, created to add some functionality to webpages. It was designed to be easy to work with and very lightweight at first (I'm sure there are people out there who have no idea that the internet used to sound like... wait, the probably don't know much about FAX machines either...) due to "broadband" not even being a consumer concept at that point in time. Since then JavaScript (ECMAScript) has evolved into quite a little powerhouse of a language, that still remains quite accessible (realistically, a browser and a text editor can get someone started with the webstack, and while some languages are capable of similar, most will not offer the "GUI" type approach than many people these days are more comfortable with), and yet highly extensible to target different niche environments. Realistically, the hop onto the desktop environment is relatively new (the Atom editor (and its various forks) being some of the more polished offereings), but it does not seem to have any major obstacles in its way to allowing fast and easy deployment of robust and usable cross-platform applications. Yes, the applications have to include a minimal executable browser, so this might not be the ideal solution for an embedded application, or in situations where storage space is at a premium, but for the average computer user, the space will not be an issue.&lt;/p&gt;
+
+&lt;p&gt;--The other topic I wanted to mention was a Linux distribution that I found the other day. It is called GeckoLinux (&lt;a href="https://geckolinux.github.io/"&gt;https://geckolinux.github.io/&lt;/a&gt;), and it is a spin of OpenSuSe (&lt;a href="https://www.opensuse.org/"&gt;https://www.opensuse.org/&lt;/a&gt;) that aims to be a bit more desktop friendly, instead of being targeted towards server use. It also includes the Cinnamon desktop environment (one of my favorites), and a few other nice touches to make OpenSuSe feel a bit more polished. I haven't made the full jump from Ubuntu yet, but I must admit that it is getting a good amount of daily use as I work towards seeing if I can get it setup just right (no, my Ubuntu setup is not "perfect" but it has been the best compromise so far).&lt;/p&gt;
+
+&lt;p&gt;Oh, I almost forgot to mention... Playing around with JavaScript, and looking around at "alternatives (I already knew about ClojureScript), I have stumbled across a very strong platform to start trying out polyglot programming as well (even stronger than Java from what I can tell), but I'm going to call it for now, and start working more on that post (;&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Cackling madly inside and out...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A Different View</title><description>&lt;p&gt;I've been working on a kivy-based project for a little but, but I've been running into a couple of issues getting it all to just "work" cross-platform. I have a feeling that this is due to the fact that kivy has to "contain" features of the Python language that can't/&lt;/p&gt;</description><link>http://localhost:2368/2015/11/21/a-different-view/</link><guid isPermaLink="false">be68cbe7-91f4-4e96-8f9a-bf154ef26378</guid><category>HTML5</category><category>CSS</category><category>JavaScript</category><category>Madness</category><category>Rant</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sun, 22 Nov 2015 05:50:45 GMT</pubDate><content:encoded>&lt;p&gt;I've been working on a kivy-based project for a little but, but I've been running into a couple of issues getting it all to just "work" cross-platform. I have a feeling that this is due to the fact that kivy has to "contain" features of the Python language that can't/won't translate into cross-platform native code. This got me thinking about how the difficulties are due to this, and a more elegant way would be to take a language that may (or may not) be missing some of the features (inherently), but can be extended to actually fill the need. Also, Python isn't "native" on the mobile platforms, and was/is not designed primarily to be a compiled language. I still love Python, it is (and will remain) my go-to for a "systems" glue language, build scripts, and all sorts of fun projects, but for cross-platform apps, that do not require a lot of deep hardware access, there is a much better approach.&lt;/p&gt;
+
+&lt;p&gt;Enter the HTML5/CSS/JavaScript combination!&lt;/p&gt;
+
+&lt;p&gt;Wait, aren't those things used on web pages? Yes, they are, and that is where the magic happens! There have been many advancements in these technologies, and some (surprising?) twists along the way.&lt;/p&gt;
+
+&lt;p&gt;Browsers, and the internet have come a long way in the last 5-10 years, from tiny little Flash clips being "big" video style data. To streaming HD in real time while doing (many?) other things as well. The availability of bandwidth has driven consumers to want to see higher quality in real time over the internet. The Browsers have tried very hard to keep up with the expectations of the consumers, with languages like HTML, CSS, and JavaScript constantly evolving (while maintaining backwards compatibility, for the sake of ancient webpages that haven't been updated since before the turn of the century) to handle these demands in elegant and efficient ways (some might argue that browsers are getting bloated, but that is not relevant to this topic).&lt;/p&gt;
+
+&lt;p&gt;Mobile devices (and those that share an architecture with them, like tablets), operate with lower power tech, so slower processors, less memory, etc. than a desktop/laptop/notebook. These manufacturers are always looking for a way to leverage something they already have to include on the device, to serve as a backbone for other things. Realistically, a 5mb "core" app being used to support 10 2mb apps, will take up less space than 10 4mb apps (*numbers invented, not representative of any specific app/os/etc.).&lt;/p&gt;
+
+&lt;p&gt;Enter using the browser as a "container" for apps, and why not? It already has very solid rendering capabilities (which are only getting better, with the ability to tap into a dedicated GPU if it is present), and is &lt;strong&gt;designed&lt;/strong&gt; for interacting with the user and presenting data from various different sources. The exciting part is that many technologies have been created to be able to harness the power of a modern browser, and use it as a stand-alone app (without the overhead of all the "browser-y" features).&lt;/p&gt;
+
+&lt;p&gt;HTML5 and CSS3 are incredibly expressive languages for designing webpages, creating all sorts of varied "interfaces" for different applications. Long gone are using very simple and basic "markup" on the web, everything is dynamic, interactive, personalized and tailored to the individual using it. While this is key to developing/presenting/deploying a successful application, it is not (inherently) where my interests lie, so I'm just going to mention them as needed when touching on JavaScript (in general).&lt;/p&gt;
+
+&lt;p&gt;Now... JavaScript, the "engine" of a "webapp." Years ago, I would have never thought JavaScript would become capable of being anything outside of a scripting language for the web, trapped inside a browser to limit the potential dangers of "bad/malicious" code. JavaScript is actually a very interesting and expressive language with a name that (burdens?) it with an unjust "mental relation" to Java (for most). Other than the word "java", a c-like syntax, and being "born" as technologies designed to embrace the internet, they really don't have that much in common "under the hood" (which is where the real power of any language lies).&lt;/p&gt;
+
+&lt;p&gt;I am very new to these technologies, just starting to dig in and get familiar with them, so I do apologize for any (hopefully minor) inaccuracies presented. From what I have gathered so far, the way this all works (apps based in browsers) is: There is a small application that serves to hold both a minimal browser (the "frontend") to serve as a UI for the application, and a minimalistic "server" (based on JavaScript). The "container" is used to translate the "standardized" server IO (for saving, hardware interaction, etc.) into the commands needed to do this on the specific Hardware target.&lt;/p&gt;
+
+&lt;p&gt;The beauty behind all of this is that the app can be coded &lt;em&gt;identically&lt;/em&gt; for all the platforms, as the browser "container" will handle all of the needed interfacing between the JavaScript and native hardware. Sure, there will be an overhead imposed, it is (probably) not idea for creating something that needs to run as close to the metal as possible to eek out every single drop of performance. But, as I've written about before, the ability to quickly create and deploy an app that is very accessible, can often be much more beneficial than eeking out every last drop of performance, but needing to maintain multiple codebases.&lt;/p&gt;
+
+&lt;p&gt;These technologies are "hot" there are lot of smart people working very hard to make them work, and arguably work "the hardest" since they target the largest audience of any approach to development (again, just about everyone has access to a modern browser), there is a lot of "pressure" to make things work right, all the time, every time, all while incorporating and utilizing new technologies at a very rapid pace.&lt;/p&gt;
+
+&lt;p&gt;Ironically, this blog makes use of these technologies (and a little bit of Python on my end), so that I can avoid having to host it on one of the "major" blogsites (for various reasons)!&lt;/p&gt;
+
+&lt;p&gt;This blog is created with "Ghost." Ghost is a JavaScript/node.js application to "host" a blog on a local node server. And being an application that makes webpages, it obviously uses html/css. The bit of python is a module called "buster" that generates publishable webpages from the server while it is running.&lt;/p&gt;
+
+&lt;p&gt;I know this post got a little rambly, and possibly a bit tangential and disjointed. I hope to follow up in the near future with posts going into more of the details behind all of this.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Pleasantly overwhelmed by new information!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Some Links I've Enjoyed</title><description>&lt;p&gt;-- Very tired, but I wanted to share some of the things I've been reading and learning from lately.&lt;/p&gt;
+
+&lt;p&gt;A good read on commenting code: &lt;br&gt;
+&lt;a href="http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/"&gt;http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting take on Python as a language: &lt;br&gt;
+&lt;a href="http://opensource.com/business/15/10/jane-austen-on-python"&gt;http://opensource.com/business/15/10/jane-austen-on-python&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I got a good chuckle&lt;/p&gt;</description><link>http://localhost:2368/2015/11/17/some-links-ive-enjoyed/</link><guid isPermaLink="false">a576065c-a1cf-4e5a-9c17-efee2776ec30</guid><category>Random</category><category>Rant</category><dc:creator>Lament Configuration</dc:creator><pubDate>Wed, 18 Nov 2015 02:15:54 GMT</pubDate><content:encoded>&lt;p&gt;-- Very tired, but I wanted to share some of the things I've been reading and learning from lately.&lt;/p&gt;
+
+&lt;p&gt;A good read on commenting code: &lt;br&gt;
+&lt;a href="http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/"&gt;http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting take on Python as a language: &lt;br&gt;
+&lt;a href="http://opensource.com/business/15/10/jane-austen-on-python"&gt;http://opensource.com/business/15/10/jane-austen-on-python&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I got a good chuckle from this: &lt;br&gt;
+&lt;a href="http://lukeplant.me.uk/blog/posts/why-learning-haskell-python-makes-you-a-worse-programmer/"&gt;http://lukeplant.me.uk/blog/posts/why-learning-haskell-python-makes-you-a-worse-programmer/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, the roguelike tutorial: &lt;br&gt;
+&lt;a href="http://tinyurl.com/o2325sc"&gt;http://tinyurl.com/o2325sc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I  could really relate to this one: &lt;br&gt;
+&lt;a href="http://www.trollope.org/scheme.html"&gt;http://www.trollope.org/scheme.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahhh, the power of LISP! &lt;br&gt;
+&lt;a href="http://dustycloud.org/blog/how-hy-backported-yield-from-to-python2/"&gt;http://dustycloud.org/blog/how-hy-backported-yield-from-to-python2/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Implementing a LISP interpreter (REPL) in Python: &lt;br&gt;
+&lt;a href="http://www.norvig.com/lispy.html"&gt;http://www.norvig.com/lispy.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting perspective from John Carmack on the history and future of game engine programming: &lt;br&gt;
+&lt;a href="http://tinyurl.com/moq3zo5"&gt;http://tinyurl.com/moq3zo5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Another article with Mr. Carmack's perspective on the future of game engines: &lt;br&gt;
+&lt;a href="http://tinyurl.com/7bey7ux"&gt;http://tinyurl.com/7bey7ux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This too made me chuckle about vim: &lt;br&gt;
+&lt;a href="http://www.norfolkwinters.com/vim-creep/"&gt;http://www.norfolkwinters.com/vim-creep/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Definitely been using Hy to prototype for Python, the advantage being that I can use names and such that will translate to Python, but structure things with LISP structures, which come a lot more naturally for me than anything else. Sure I sometimes end up having to really write some not-so-pretty code to make the translation happen, but I have been learning a lot about making things work in Python this way, while still getting to use and enjoy a LISP. Definitely a win-win right now (:&lt;/p&gt;
+
+&lt;p&gt;On a side note, I know the title of my blog might not seem quite as appropriate given that I'm mostly working in Python/C/Rust these days, which all allow functional programming to some extent, but don't require or enforce it. I &lt;em&gt;still&lt;/em&gt; try to abide by functional paradigms, and keep as much of my data immutable, and my functions pure. I don't fret over side effects, and I don't spend hours trying to find a side-effect way to do something that I already know how to do that involves side effects. They are an unavoidable part of programming, and even Haskell has found a way to deal with them it its own mathematically magical way.&lt;/p&gt;
+
+&lt;p&gt;It is really a lot of fun trying to work things out, and I am enjoying the complete "power level" access I have using Python with either Rust or C libraries to get as close to the metal as I ever see myself needing to get. C is my go-to right now for that stuff, but I am keeping a close watch on Rust and learning it is small bites here and there. I'm also using Haskell as a break and distraction from the more work-related things I'm coding in Python. It is really nice to go from a "designed for day-to-day stuff" language, that makes some compromises in power/safety in order to facilitate rapid development, to a language that builds everything around a simple but powerful base construct (the typed lambda calculus), and develops things of incredible power and flexibility that sometimes take a while to properly digest, understand, and apply, but when they do click, it is quite an exciting revelation.&lt;/p&gt;
+
+&lt;p&gt;Oh, and this video of a Slayer song is absolutely fantastic: &lt;br&gt;
+&lt;a href="https://www.youtube.com/watch?v=eqr4QrwSEj4"&gt;https://www.youtube.com/watch?v=eqr4QrwSEj4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Puzzling out the Enigmas...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>The Joy Of The Written Word</title><description>&lt;p&gt;Growing up, I had atrocious handwriting, so because of this, I quickly graduated and adopted to typing things out instead of handwriting them. As a result of this, my handwriting never really improved.&lt;/p&gt;
+
+&lt;p&gt;A friend on my e-cig chatroom pointed me towards trying to handwrite with fountain pens. On a&lt;/p&gt;</description><link>http://localhost:2368/2015/11/15/python-funzies/</link><guid isPermaLink="false">ab098f74-7fa1-4283-a556-c91dc6b4f79d</guid><category>Random</category><category>About Me</category><category>Interests</category><dc:creator>Lament Configuration</dc:creator><pubDate>Mon, 16 Nov 2015 01:43:47 GMT</pubDate><content:encoded>&lt;p&gt;Growing up, I had atrocious handwriting, so because of this, I quickly graduated and adopted to typing things out instead of handwriting them. As a result of this, my handwriting never really improved.&lt;/p&gt;
+
+&lt;p&gt;A friend on my e-cig chatroom pointed me towards trying to handwrite with fountain pens. On a whim, I picked up a "Preppy" by the company "Platinum" (&lt;a href="http://www.amazon.com/Platinum-Fountain-Preppy-Black-PPQ-200-/dp/B001H0CEM4%3Fpsc%3D1%26SubscriptionId%3DAKIAILSHYYTFIVPWUY6Q%26tag%3Dduckduckgo-d-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001H0CEM4"&gt;http://www.amazon.com/Platinum-Fountain-Preppy-Black-PPQ-200-/dp/B001H0CEM4%3Fpsc%3D1%26SubscriptionId%3DAKIAILSHYYTFIVPWUY6Q%26tag%3Dduckduckgo-d-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001H0CEM4&lt;/a&gt;), They also have a "medium" nib, but I had read that a finer nib helps with messy handwriting. I did my best to work it into my daily writing, and to write more.&lt;/p&gt;
+
+&lt;p&gt;Not only did my handwriting improve, I discovered a joy in writing with a pen that takes some skill to use, I quickly graduated to higher end pens, and discovered Goulet Pen Company. I've purchased a couple of Ahabs (&lt;a href="http://www.gouletpens.com/noodler-s-ahab-flex-fountain-pen-cardinal-darkness-red-w-black-/p/N15029-R"&gt;http://www.gouletpens.com/noodler-s-ahab-flex-fountain-pen-cardinal-darkness-red-w-black-/p/N15029-R&lt;/a&gt;) and a Joy (&lt;a href="http://www.gouletpens.com/lamy-joy-calligraphy-fountain-pen-black-1.5mm-stub/p/LMY-L15-15"&gt;http://www.gouletpens.com/lamy-joy-calligraphy-fountain-pen-black-1.5mm-stub/p/LMY-L15-15&lt;/a&gt;) with a calligraphy nib. I've also purchased numerous inks for the Joy, and Ahab.&lt;/p&gt;
+
+&lt;p&gt;I have become quite fond of the Ahab, the slight flex to the nib, combined with a wonderful ink (like "Charles Dickens" by De Atramentis) just allows one to add such a personal touch to the written word, a bit of oneself in ordinary everyday communication. And actually sitting down and writing a letter to someone, hand addressing the envelope in a bit of a fancy script, really adds that personal and human touch back into a day to day that is so very digitally dominated.&lt;/p&gt;
+
+&lt;p&gt;Do I fear the fact that digital is taking over? Not at all, it is inevitable, convenient, easy, affordable. Everything that makes it "good" for us as consumers and end-users. At the same time, I will not give up on elegance and individuality in communication. Standards, formatting, and a lack of "personality" are often good things when it comes to writing "good" code, but it is not something we should ever lose sight of as humans and individuals.&lt;/p&gt;
+
+&lt;p&gt;I've also dove deeper into this world, having purchased several nibs and holders for dip pens, and purchased a book with several calligraphic scripts. While I truly never intend to use them to their perfect, measured use, I do like incorporating the ideas, general patterns, and stylistic touches into my own writing. The beauty of controlled ink, colours changing ever so slightly with the pressure applied to the nib, the gentle scratching noise of the nib along the paper. It is a surreal feeling.&lt;/p&gt;
+
+&lt;p&gt;I strongly suggest tossing a Preppy into your next purchase at Amazon. It is something you will probably never regret, and find far more enjoyment than the cost of the pen in rediscovering the true joy of the written word.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Dipped, and recorded, as in days of yore...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Python! Practical... Perfect?</title><description>&lt;p&gt;It is funny how we often have the most elegant solution to our problems right under our noses...&lt;/p&gt;
+
+&lt;p&gt;A little history blurb: Even after discontinuing my formal studies in Java and C++, I still dual-booted Windows and some form of Linux whenever I could, and often used Python under Linux&lt;/p&gt;</description><link>http://localhost:2368/2015/11/13/python-practical-perfect/</link><guid isPermaLink="false">282906e0-5780-49f9-a66a-9e14d5a404b8</guid><category>Python</category><category>Madness</category><dc:creator>Lament Configuration</dc:creator><pubDate>Fri, 13 Nov 2015 22:33:46 GMT</pubDate><content:encoded>&lt;p&gt;It is funny how we often have the most elegant solution to our problems right under our noses...&lt;/p&gt;
+
+&lt;p&gt;A little history blurb: Even after discontinuing my formal studies in Java and C++, I still dual-booted Windows and some form of Linux whenever I could, and often used Python under Linux instead of making bash scripts. I never got too deep into it though...&lt;/p&gt;
+
+&lt;p&gt;Fast-forward to when I'm starting back into programming. Python is mentioned, but part of me doesn't seem to be able to accept what Python is these days: A very well written language for quickly solving smaller problems. While this might seem to be a limitation, the real power shows with how easy it is to combine Python modules, &lt;em&gt;and&lt;/em&gt; how easy it is to interface with C libraries in order to take it "closer to the metal" when needed (callling Rust libraries in Python isn't too shabby either!).&lt;/p&gt;
+
+&lt;p&gt;So it took me a little while to come back `round to Python again, but it really does feel good to be working in something that I have maintained a familiarity with, and can grasp at the concepts that allow me to implement things that are pushing towards my goals, instead of starting from the ground up and learning the basic syntax and semantics of a new language. Part of this realization occured when I was working through the tutorial for the roguelike game at roguebasin (&lt;a href="http://tinyurl.com/Python-Roguelike"&gt;http://tinyurl.com/Python-Roguelike&lt;/a&gt;). Putting together an entire game using Python really opened my eyes to how capable a language Python is.&lt;/p&gt;
+
+&lt;p&gt;Realistically, do I see Python as a "great" programming language for every situation? No, not at all, but for quick prototyping/development of (just about) anything? It is incredible. The power to tie into C libraries, and serve as glue code to get something done quickly is outstanding. If the software is more than just a one off quick-fix, optimizations can be done, re-written into full C if needed, etc. But sometimes, a slightly larger/slower program is an acceptable compromise for rapid development and deployment.&lt;/p&gt;
+
+&lt;p&gt;A quick note on Python 2 vs. Python 3. Python 2 is in "extended security support" status, and at this point, the only reason I'm still working with Python 2 is because Kivy is not 100% Python 3 yet, many other major libraries have been converted. It is not the easiest of transitions, due to semantic changes in the language. While this is unfortunate, it wasn't without long debate, with a lot of effort put forth into minimizing the problems created. Despite this, I do suggest learning 3, however, I do not suggest ignoring some of the better tutorials based on 2 that are out there. Especially for someone completely new to the language, the changes are not so drastic that a tutorial will be "broken" (yes, there will be syntax changes, and a few things might not work any more, but the meat of any good tutorial will still be completely useful Python). The Python community as a whole has been very helpful and supportive in efforts to make sure everyone can move to adopt the new standard as soon as possible. A few of my favourite tutorials are (in no particular order): &lt;br&gt;
+&lt;a href="http://learnpythonthehardway.org/book/"&gt;http://learnpythonthehardway.org/book/&lt;/a&gt; (is Python 2, but still really helps cement the basics). &lt;br&gt;
+&lt;a href="http://www.swaroopch.com/notes/python/"&gt;http://www.swaroopch.com/notes/python/&lt;/a&gt; (a great, easy to read and digest tutorial). &lt;br&gt;
+&lt;a href="http://getpython3.com/diveintopython3/"&gt;http://getpython3.com/diveintopython3/&lt;/a&gt; &lt;br&gt;
+(fantastic and Python 3).
+&lt;a href="http://tinyurl.com/Python3-Wikibook"&gt;http://tinyurl.com/Python3-Wikibook&lt;/a&gt; (a good introduction to Python 3).&lt;/p&gt;
+
+&lt;p&gt;Yes, I am definitely a Python fanboy at this point, I think that it is a language that anyone serious about using their computer will obtain at least a passing knowledge of due to how prevalent and useful it is. All major Linux distributions have Python installed by default, most have transitioned to 3 almost, if not, completely by now. It is a solid language, with a vast ecosystem of tools for everything ranging from scripting, to games (text, 2D, 3D), web frameworks, advanced numerical operations and processing, and more. With Python, if you can think up a task, there is a very good chance there is a module or project out there that can help you solve your problem quickly. A good starting point for someone who wants to see what Python can do for them can be found at: &lt;a href="https://automatetheboringstuff.com/#toc"&gt;https://automatetheboringstuff.com/#toc&lt;/a&gt; It starts off with a short introduction to basic Python programming, and leads into useful applications of those concepts without going too deep into Python itself (bonus, it uses Python 3).&lt;/p&gt;
+
+&lt;p&gt;In Atom, the only special concession I make for Python is to show the indentations of my code as thin vertical lines to help me keep my code blocks separated. Python is one of the few syntaxes in coding that I can tolerate reading without highlighting, but there is no way I wouldn't be using it when writing my own code! The readability of Python is actually quite good as long as the coder takes time to follow the PEP8 guidelines (&lt;a href="http://legacy.python.org/dev/peps/pep-0008/"&gt;http://legacy.python.org/dev/peps/pep-0008/&lt;/a&gt;). I found this article: &lt;a href="http://opensource.com/business/15/10/jane-austen-on-python"&gt;http://opensource.com/business/15/10/jane-austen-on-python&lt;/a&gt; quite interesting regarding the readability of Python code.&lt;/p&gt;
+
+&lt;p&gt;All in all, rediscovering Python, digging into Rust, and exploring Haskell (and all the other languages along the way (notably Scheme/LISP variants)) have taught me a lot about readability and expressiveness in computer programming languages, something I had never really considered back when learning Java and C++, truthfully it wasn't really touched on by my instructors. Readable code was code that used descriptive variable/function/method/class/etc. names, and was properly commented. Nothing more, it didn't matter how the code itself looked in the end, as long as you could explain it in comments. I always have commented my code, more so if it is not just for me. Although there are many cases where Python does not make it needed (print(), for i in range(10):, are just some examples of things that convey their intent well in Python) as much, and one can argue that annotated types in Haskell are a great start to comments for any function in any language! Rust too has a syntax that clearly conveys its intent (not that I wouldn't be adding comments as well, just that they will translate better from comment to code than in some other languages).&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(First you must find a Shrubbery...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Another long week (already?)</title><description>&lt;p&gt;It is nice, finally, to get to sit and write. A couple more things have changed though.&lt;/p&gt;
+
+&lt;p&gt;Haxe has already been replaced. In searching for resources to learn it, I instead stumbled across Kivy (&lt;a href="http://kivy.org/#home"&gt;http://kivy.org/#home&lt;/a&gt;). I already knew about Django (&lt;a href="https://www.djangoproject.com/"&gt;https://www.djangoproject.com/&lt;/a&gt;), but do not&lt;/p&gt;</description><link>http://localhost:2368/2015/11/11/another-long-week-already/</link><guid isPermaLink="false">71d405cb-22c7-4062-ae60-e3e3b3b73262</guid><category>Random</category><category>Python</category><dc:creator>Lament Configuration</dc:creator><pubDate>Thu, 12 Nov 2015 01:36:07 GMT</pubDate><content:encoded>&lt;p&gt;It is nice, finally, to get to sit and write. A couple more things have changed though.&lt;/p&gt;
+
+&lt;p&gt;Haxe has already been replaced. In searching for resources to learn it, I instead stumbled across Kivy (&lt;a href="http://kivy.org/#home"&gt;http://kivy.org/#home&lt;/a&gt;). I already knew about Django (&lt;a href="https://www.djangoproject.com/"&gt;https://www.djangoproject.com/&lt;/a&gt;), but do not need the ability to deploy as a webapp (yet (nor do I see any need for flash/HTML5 to be honest)), I need to deploy to mobile. From what I've seen, Kivy is an incredible solution to getting (just about) anything I can make in Python onto many platforms (including mobile) easily.&lt;/p&gt;
+
+&lt;p&gt;Realistically, the main advantage that Kivy and Django give me is the ability to use and leverage the (little) bit of Python I already know, rather than diving into a new (to me) language and ecosystem (Haxe).&lt;/p&gt;
+
+&lt;p&gt;I also had some difficulties getting Haxe and other resources for it installed and configured correctly. Again, this is no attack on the capabilities of Haxe, it has definite "on paper" advantages to Python/Kivy/Django, but for me, I am looking forward to working with a familiar language in both syntax and semantics. As well as leveraging an ecosystem that I am already familiar with. I truly am excited and invigorated to be able to push myself and expand my knowledge of a very practical, powerful, and useful language.&lt;/p&gt;
+
+&lt;p&gt;I'll be definitely posting more the next few days, I have a backlog of posts that just need to be fleshed out (ok, they are outlines and jumbled thoughts...). While I am having more trouble with the Polyglot Programming one than I expected, I do plan on touching on how a Python truly did offer a solution to everything I've faced so far (and why I (foolishly) overlooked it), and why Python feels so comfortable to me. Hopefully I'll also have time to translate some other random thoughts into bytes  as well. (-:&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Finally in the groove...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A Very Long Week...</title><description>&lt;p&gt;--Who would have thought that a 4-day work week would feel so very long...&lt;/p&gt;
+
+&lt;p&gt;--Finally getting a break, and a chance to post something. A few updates on coding things that have happened since I last posted.&lt;/p&gt;
+
+&lt;p&gt;Firstly, I've switched to Atom over spacemacs, this is due to the fact&lt;/p&gt;</description><link>http://localhost:2368/2015/11/06/a-very-long-week/</link><guid isPermaLink="false">ccbebbf3-60f9-4f7a-81f4-549bc644a86f</guid><category>Random</category><category>Atom</category><category>Rust</category><category>JVM</category><category>Haskell</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sat, 07 Nov 2015 01:04:18 GMT</pubDate><content:encoded>&lt;p&gt;--Who would have thought that a 4-day work week would feel so very long...&lt;/p&gt;
+
+&lt;p&gt;--Finally getting a break, and a chance to post something. A few updates on coding things that have happened since I last posted.&lt;/p&gt;
+
+&lt;p&gt;Firstly, I've switched to Atom over spacemacs, this is due to the fact that over the course of a week working with spacemacs that I am not nearly as comfortable configuring an Emacs environment, as I am configuring Atom. I've found that for my actual editing, I like to keep my hands on the keyboard, but for configuring, changing settings, and things like that, I prefer a mouse to work with things. Atom allows me to do this, also, with a few plugins, I can make Atom behave modally (like vim). As I have mentioned before, Atom has a strong and growing community supporting it, and the ecosystem of plugins and themes seems to be getting better by the day. No hate towards Emacs, I just can't get comfortable with everything (I'd say "again," but I always found myself a bit lost in Emacs).&lt;/p&gt;
+
+&lt;p&gt;Secondly, I've completely come to grips with the fact that I'm not ever going to be a "one-language" guy, but that different languages appeal to different parts of my personality.&lt;/p&gt;
+
+&lt;p&gt;Haskell, is, and always will be something I dabble in, explore, and learn. Working with it (for me) is like writing with my dip pens, the result is beautiful, elegant, and quite rewarding, but it takes a lot of time and patience. I will not be giving up on my pursuit of learning Haskell fluently, or using it for development once I do, but I have realized that I need to approach Haskell slowly and patiently in order for things to properly cement themselves.&lt;/p&gt;
+
+&lt;p&gt;So where does this leave me? I've looked harder at Rust (&lt;a href="https://www.rust-lang.org/"&gt;https://www.rust-lang.org/&lt;/a&gt;), and I like its design goals, as well as how it implements things. Yes, it is still quite a new and developing language, but to me, that is part of the allure and enjoyment of working with it. More on Rust in the future. (:&lt;/p&gt;
+
+&lt;p&gt;I had originally planned to use the JVM for all of my cross-platform development in the near future, but this is not the best solution for most of my goals, it is very possible, but it is not as efficient as I had hoped. So I unleashed my search-engine-fu (not only constrained to google), and found something quite interesting. I found Haxe (&lt;a href="http://haxe.org/"&gt;http://haxe.org/&lt;/a&gt;). Haxe is a toolkit (that includes it's own language) for developing and implementing frameworks that enable cross-platform development (&lt;a href="http://haxe.org/documentation/introduction/compiler-targets.html"&gt;http://haxe.org/documentation/introduction/compiler-targets.html&lt;/a&gt;). There are many libraries and frameworks already available (&lt;a href="http://haxe.org/use-cases/"&gt;http://haxe.org/use-cases/&lt;/a&gt;) targeting specific kinds of applications. I feel like (for now at least) Haxe will allow me to quickly prototype and deploy smaller apps across multiple platforms without creating a gigantic codebase.&lt;/p&gt;
+
+&lt;p&gt;Does this mean I'm giving up on the JVM? Nope! It has been relegated to something relatively esoteric: Polyglot Programming (&lt;a href="https://en.wikipedia.org/wiki/Polyglot_%28computing%29"&gt;https://en.wikipedia.org/wiki/Polyglot_%28computing%29&lt;/a&gt;). My interest in this started when I learned that Clojure can call Java directly, which upon further research lead to the knowledge that all of the languages targeting the JVM can work this way with each other. While I will not be dedicating too much time to this. I do have full intentions of seeing what can be done when combining various languages that target the JVM (mostly Frege, Clojure, Scala, and Ceylon, but there are so many choices!). This could be a very interesting way to combat horribly contrived syntax in one language, by implementing the function/feature in another.&lt;/p&gt;
+
+&lt;p&gt;That's all for now, I do have some rough posts and outlines coming together, I hope to get a couple more out soon!&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Tinkering, tweaking, optimizing...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Sunday Closure...</title><description>&lt;p&gt;Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (:&lt;/p&gt;
+
+&lt;p&gt;--Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some "office" suite and be more than happy, the coder needs some features that those will never&lt;/p&gt;</description><link>http://localhost:2368/2015/11/01/sunday-closure/</link><guid isPermaLink="false">1616c012-64f5-4baf-aeba-c3b496332220</guid><category>Editor</category><category>Concurrency</category><category>Game Dev</category><dc:creator>Lament Configuration</dc:creator><pubDate>Mon, 02 Nov 2015 03:46:47 GMT</pubDate><content:encoded>&lt;p&gt;Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (:&lt;/p&gt;
+
+&lt;p&gt;--Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some "office" suite and be more than happy, the coder needs some features that those will never offer (syntax highlighting, interfacing with the compiler to "lint" code, etc.). Also, editors have been used for coding for longer than computers have been used for making documents. Editors from the era "before documents" are regarded with almost religious fanaticism. The holy war of editors will never end, with each side regarding their editor as better, while secretly pining for the features the "other side" does better (and the Internet will laugh forever). Both major sides (Emacs and vim) have their trade-offs, and in their stock forms, there are definite pros and cons to each. However, I find trade-offs to be a rather discouraging thing, why can't one have both?&lt;/p&gt;
+
+&lt;p&gt;Vim's power lies in its modal approach to the interface, there are different modes for inputting text, moving the cursor around, and doing "stuff" to your file. It uses a lot of mnemonic patterns while in the alternate (non-text-input) modes, as well as aiming to keep one's fingers on the home row. This allows for very fast, fluid and "easy" use of the editor. Vim is my preferred editor due to this modal interface and mnemonic "patterning" of commands.&lt;/p&gt;
+
+&lt;p&gt;Emacs' power is in how it is not designed as a text editor, but as an "operating system" of sorts, that happens to have a very extensible text editor! Emacs truly can serve as a command station for computing. But again, I'm not here to extol the virtues of one OR the other, I want the best of both! And while there are ways to get Emacs setup to be modal, most options involve installing and configuring multiple extensions to work together. Not an impossible task, but not a pleasant one either.&lt;/p&gt;
+
+&lt;p&gt;This brings me to my latest obsession in editors: spacemacs_ (&lt;a href="https://github.com/ajnsit/spacemacs"&gt;https://github.com/ajnsit/spacemacs&lt;/a&gt;). It strives to take the power of Emacs, make extending it more standardized, and include the option to use a well implemented modal editing mode (it is the default actually). Heck, it even allows a "hybrid" of the modal (vim) and non-modal (Emacs) modes, and if none of those three fit you perfectly, you can tweak it to your heart's content!&lt;/p&gt;
+
+&lt;p&gt;It has a nice system for managing extensions, a standardized implementation for these extensions, and an active and enthusiastic community supporting it. If there ever was a project that could attempt to unite the Emacs and vim camps, this would be it. I feel that members of both camps (or those of you who are currently using something else) should give it an honest try, if only to see what the "other side" has, without giving up what "their side" has already. I mean seriously, nothing to lose for anyone!&lt;/p&gt;
+
+&lt;p&gt;As a side note, Atom (&lt;a href="http://atom.io"&gt;http://atom.io&lt;/a&gt;) is great for languages that are very well supported in it, or languages where you just want some tasty syntax highlighting. It is lightweight and has a lot going for it, it just doesn't feel robust yet, and neither the vim or Emacs keybinding packages integrate as well as I'd like, and sometimes plugins for different languages don't play nicely with each other at load time (not a huge deal, just enable/disable as needed and restart it). After using it to do the roguelike tutorial, I personally feel that about 1,000 lines of code is about the most I could handle at a time with it.&lt;/p&gt;
+
+&lt;p&gt;--Now onto concurrency:
+Or should I say "the future of computing?" Either is an acceptable expression. Will the "average" user benefit from concurrency? Probably somewhat as their operating systems get better at putting their applications on different cores, or their web browser becomes more capable of concurrency. But this is not where concurrency can show its true power. Concurrency shines when massive amounts of data need to be processed at the same time. The two major players who are interested in concurrency are "big data" and the gaming industries. "Big data" is interested because concurrency has been their model from day one. It is their bread and butter. The gaming industry is interested because it would allow them to harness the multi-core future of computing better. Honestly, everyone should be interested in concurrency due to the fact that processors are adding more cores now instead of bumping clock rates.&lt;/p&gt;
+
+&lt;p&gt;But to touch more on the games, since that is where my interest really lies, lets go back in time to the era where computer games really started to catch on, lets say around the Doom II era. Hardware then was still single-core, and optimizing for that hardware was getting the most things to happen on one core at a time. A coder didn't have to worry about some other piece of code trying to utilize the same data, and mutable data structures were able to be modified within functions, instead of passing them in and out, saving clock cycles. Functional languages were at a disadvantage to imperative languages here, c++ reigned supreme due to its ability to use objects to create a way to group data into entities, a strong interface with the established c libraries, and the ability to write really tight loops by "inlining" assembly code.&lt;/p&gt;
+
+&lt;p&gt;The problem with this today (and this really has nothing to do inherently with c++) is that the individual cores in processors are not getting much faster anymore, but they are adding cores to chips regularly. Hell, even cellphones are up to quad-core chips now! This is all fine and dandy for joe/jane average, allowing them to multitask between a few apps on their phone easier, but this is not really concurrency, as it is the OS directing the traffic to the various cores. True, for most uses (even games) the OS will still be "in charge" of where different things go, but this hasn't been the problem with game engines.&lt;/p&gt;
+
+&lt;p&gt;The problem lies in the fact that legacy code, is still done in c++ (mostly) which has support for concurrency, but does not enforce coding that inherently makes it "safe" to implement (again, not slamming c++, it is possible to do safe, concurrent programming in c++, it is just not "idiomatic", "default" or "enforced" in any way). So harnessing the other cores&lt;strong&gt;**&lt;/strong&gt; is a risky thing, especially with the large amount of code involved in a game engine. I feel that this inability to harness multiple cores in a game is what has lead us to these "4k 120hz" type displays, the GPU has so much power available that it can easily calculate the pixels for a higher resolution, but what if the combined power of more cores could be leveraged into better renderers, motion algorithms, fluid simulations, etc. at a lower (say 1080p) resolution. More pixels are not going to make a game more "realistic." Smarter AIs and better, more natural movements of models (both "prime" movements like lifting an arm, and "secondary" movements, like the sleeve on their robe, or their hair when they run their hand through it) would go a lot further towards creating a more realistic and immersive experience for the user.&lt;/p&gt;
+
+&lt;p&gt;Personally, I find the challenge of making a better AI, more realistic physics model, or a renderer that can create very detailed textures in very little time, far more satisfying than trying to optimize a loop "on the metal" to get it to run faster on just one core.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;**&lt;/strong&gt;Note it really isn't using another core that poses a problem, it is making sure that two (or more) threads do not try and edit the same location in memory. Or manually managing the "locks" that prevent this from happening. Many titles will offload things like audio decompression, voice/text communication, etc. to another core, but all the "important" stuff stays on one core.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Doing more... with more!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Full Circle...</title><description>&lt;p&gt;--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on track, and start pursuing the endgame again.&lt;/p&gt;
+
+&lt;p&gt;Like I mentioned&lt;/p&gt;</description><link>http://localhost:2368/2015/10/31/full-circle/</link><guid isPermaLink="false">199cf4f6-cb64-48eb-abc3-f9bff357496a</guid><category>Haskell</category><category>Languages</category><category>Interests</category><category>Madness</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sun, 01 Nov 2015 00:55:55 GMT</pubDate><content:encoded>&lt;p&gt;--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on track, and start pursuing the endgame again.&lt;/p&gt;
+
+&lt;p&gt;Like I mentioned before (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/&lt;/a&gt;) Haskell  is a challenge to my brain, &lt;em&gt;but&lt;/em&gt; it feels like the same challenge as understanding theoretical physics, or solving a Rubik's cube intuitively (at least to me). I enjoy that challenge, and the reward has always been well worth the effort. I am choosing to pursue Haskell (especially after learning about Frege: &lt;a href="http://tinyurl.com/Frege-lang"&gt;http://tinyurl.com/Frege-lang&lt;/a&gt;  I still think the JVM can help with some of my more intermediate goals (more on Frege and the JVM another time)). &lt;/p&gt;
+
+&lt;p&gt;I am going to be using "Haskell Programming - from first principles" (&lt;a href="http://haskellbook.com/"&gt;http://haskellbook.com/&lt;/a&gt;) as my core guide, as well as various other recommended tutorials, which I will touch on as I do them. If I refer to "The Book" chances are it is this tome of excellence.&lt;/p&gt;
+
+&lt;p&gt;Now... why Haskell? Yes, the libraries and cabal can be... special (part of the reason I am also interested in Frege for the time being), but the fact is, I feel much more confident in my ability to (learn to) write library bindings in the FFI (C is the target language), than I am in my ability to manually implement a system that is designed to be concurrent. Haskell, being both pure and functional (with ways to handle both imperative and impure requirements), &lt;em&gt;is&lt;/em&gt; able to run concurrently without any chances of a deadlock or race condition! Realistically, concurrency is going to be the way to get performance for any kind of application in the future, chips are not getting faster, but they are getting more cores (virtual and hardware). Concurrency is going to be a key and critical issue in software for the future.&lt;/p&gt;
+
+&lt;p&gt;I feel that taking some time away from Haskell (I gave it a good month to try and learn it when it caught my attention right off the bat when I was looking for a language to learn (for basically the same reasons I ended up back at it)), and taking some time with LISPs/Schemes (and some time spent doing imperative coding with Python and D), gave my brain a chance to reboot to coding, to get back into the mindset of working with code, manipulating data, and (ugh) debugging. The frustrations I faced with those languages (mostly with Python in terms of use, I still love LISPs/Schemes, and encourage anyone interested in coding to spend some time with one), has made Haskell even more of the obvious choice than it already was. &lt;/p&gt;
+
+&lt;p&gt;Speaking about first-class functions. I love how having them available makes one focus on creating many smaller functions, that can be combined to form more powerful operations on data. If in the end, a function is only used once, it can be abstracted into a lambda to be more efficient. It is little things like that, the ease and elegance of how it works with Haskell (every function only takes one argument, and returns one argument, functions (in Haskell) that take more than one argument are said to be "curried," and this is an absolutely brilliant and elegant approach to handling first-class functions) makes the creation of functions that "do" what the coder wants, extremely easily.&lt;/p&gt;
+
+&lt;p&gt;Truly, the fact that Haskell allows functions to take more than one type of data (depending on the specific function, the "+" function can not take the letter b and number 3 and give a result (under normal circumstances)), and encourages the type signatures of a function to be as accommodating as possible, leads one to think in much more abstract (but elegant and efficient) terms when it comes to manipulating data. Abstraction is a very powerful tool in both math and computer programming. Haskell is one of the few languages to harness these abstractions and make them available to the coder directly. Yes there is a trade off, I feel like I will be writing more pseudocode and flow charts &lt;em&gt;before&lt;/em&gt; actual code, but I also feel like I will spend a lot less time debugging (and no, spending that time pseudocoding and flowcharting with the other languages would not provide the same benefits to debugging as doing it with Haskell, they "build" differently and encourage a different thought process). This is a tradeoff I can more than happily make, especially since Haskell does have a REPL (it has a few quirks, but they are acceptable).&lt;/p&gt;
+
+&lt;p&gt;To be honest, I was still a bit hesitant to post this. I know how I &lt;em&gt;feel&lt;/em&gt; about Haskell, the bullet points that make it so very awesome, and some very basic reactions as to why I like those points. But at the same time, I haven't learned enough to give a good explanation of why those things are so awesome (both in general, and to me), but then I realized that I could post about them as I go along, share my revelations and discoveries, and maybe after a good two (or more) readings through "The Book" put it into my own words to explain to the few readers who manage to stick around that long!&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One (10 posts!)&lt;/p&gt;
+
+&lt;p&gt;(Abstracting it all away)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>(Some More) About Me</title><description>&lt;p&gt;--Firstly, I change my editor syntax theme colors... frequently. &lt;/p&gt;
+
+&lt;p&gt;--Secondly, I know (too?) many different "approaches" to solving the Rubik's cube (there are a lot more than most would think!), and change them out (also somewhat frequently), depending on my mood towards cubing at the time. Yes, I also own&lt;/p&gt;</description><link>http://localhost:2368/2015/10/29/some-more-about-me/</link><guid isPermaLink="false">02cb78e4-cab1-452d-84da-10762e6a106a</guid><category>Editor</category><category>Rubik</category><category>Interests</category><category>About Me</category><category>Fun</category><category>Random</category><dc:creator>Lament Configuration</dc:creator><pubDate>Thu, 29 Oct 2015 20:57:31 GMT</pubDate><content:encoded>&lt;p&gt;--Firstly, I change my editor syntax theme colors... frequently. &lt;/p&gt;
+
+&lt;p&gt;--Secondly, I know (too?) many different "approaches" to solving the Rubik's cube (there are a lot more than most would think!), and change them out (also somewhat frequently), depending on my mood towards cubing at the time. Yes, I also own variants besides the "normal" 3x3x3 cube (I have NxNxN for 2 &amp;lt;= n &amp;lt;= 6, as well as some non-cube variants, or cubes with strange "cuts" and axis...).&lt;/p&gt;
+
+&lt;p&gt;So about those syntax colors... &lt;br&gt;
+When I was younger, I chose syntax highlighting themes that were noticeably different across languages. In retrospect this was not the best use of that capability. I still apply it somewhat today, but I've broken it up a bit more. I look at syntax "themes" and "syntax highlight style" as different entities.&lt;/p&gt;
+
+&lt;p&gt;"Syntax themes"(ST) are the palate and tonality of the colors involved in the highlighting. While "syntax highlight style"(SHS) is &lt;em&gt;how&lt;/em&gt; those colors are applied to the code. In general, I do tend to use a different ST for things like html and "code" and (sometimes) variations between programming languages. I do tend to keep to a darker background, with important things set to &lt;strong&gt;&lt;em&gt;pop&lt;/em&gt;&lt;/strong&gt; for the most part, and even higher contrasts for when I'm reading over or debugging. The concept of SHS is to vary the amount of elements utilizing those eye-catching colors at different stages with the same code. It is a different way of "folding" the code so you can focus on the details you are looking for.&lt;/p&gt;
+
+&lt;p&gt;Ahhh, and now onto another of my obsessions: Rubik's puzzles. Firstly, I must admit I have no "natural" ability with the cube-type puzzles, everything I know, I learned from various places on the internet. One thing that has always fascinated me is how everything about how the cube works, can be described in mathematical terms. The different solution styles all have different levels of "mathematical complexity" with the more complex ones often (theoretically) quicker, due to less turns being needed overall. On the one hand, you have an approach that requires you to learn two "series" (a "right" and "left" hand version of each, but they are mirrors of each other), this method is not a speed demon in any way, because for most of the solve you put 1 piece in place at a time (there is 1 group of 2, and one group of 3).&lt;/p&gt;
+
+&lt;p&gt;Most methods start with building the first two layers by placing one or two pieces at a time, but incorporate "series" that are much more specialized in the pieces they move and how they move them. These specialized series often affect both the location, and orientation of multiple pieces all at once. This efficiency comes at a price though, the solver must remember more information, and be able to quickly recognize the "patterns" that match up to the series. This isn't to say one can't get quite fast with the piece-by-piece method, not at all, over time one will start to recognize patterns and be able to "look ahead" of the solve. Finding their own patterns and "specialized series."&lt;/p&gt;
+
+&lt;p&gt;I for one go through phases in the kind of solution I prefer. I love the elegance of the "two series" solution, I like how I can really "see" what I am doing with each turn of a face (whereas with the specialized ones, I tend to see the beginning and the end, the intermediary steps are just "magic" (probably because the series are often computer generated for efficiency these days)). There is an elegance to solving the cube this way (although the "endgame" can get quite frustrating in a few cases), it is not something I try to be fast with, but it is more of a relaxation thing, but I also enjoy working with the "faster" methods just because I honestly think it is pretty neat to be able to quickly solve the cube. However, without regular practice, the more "advanced" series tend to quickly slip from my mind. I keep enough in my head to be able to stay under 2 minutes for a solve in general though.&lt;/p&gt;
+
+&lt;p&gt;That being said, for the most part, I stick to a method that quickly allows me to get to the "endgame" (most challenging) part of the "two series" method (using an "intuitive approach). Why? because it is the part I enjoy most, and requires the most "understanding" of how the cube works (until you start "creating" your own advanced series that is (which not many, if any do today, since it is a closed system, computers can generate series based on any constraints one could want, it is quite incredible really)). Finishing a solve this way feels the same to me as getting my code to run correctly.&lt;/p&gt;
+
+&lt;p&gt;Here is a link to the start of the "two series" solution: &lt;br&gt;
+&lt;a href="http://twistypuzzling.blogspot.com/2011/08/how-i-found-ultimate-solution.html"&gt;http://twistypuzzling.blogspot.com/2011/08/how-i-found-ultimate-solution.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is a link to the wiki I have found all of the other methods I have experimented with: &lt;br&gt;
+&lt;a href="https://speedsolving.com/wiki/index.php/Main_Page"&gt;https://speedsolving.com/wiki/index.php/Main_Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are looking to just be able to solve it, and understand how it is working (and be able to still get decently quick). I suggest understanding the "two series", then looking into the "Petrus" method (more series heavy) and the "Heise" methods. The Heise method focuses more on using intuition, and "setting up" things, whereas the Petrus method is a bit more algorithm heavy (there are alternates to solving the last layer that use less algorithms (4LLL).&lt;/p&gt;
+
+&lt;p&gt;If you truly want to dive into the speedsolving side, I would start with the "two series" method, and then look into Petrus, "CFOP," and "Roux." They all have a different approach to solving the cube, and there can be some things that one method has that will help one understand what is going on in another. There is also EOLine/ZZ which is a very advanced method that requires a lot of memorization and ability to "look ahead" in the solve.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Links&lt;/em&gt;*&lt;/p&gt;
+
+&lt;p&gt;Petrus: &lt;a href="https://speedsolving.com/wiki/index.php/Petrus_Method"&gt;https://speedsolving.com/wiki/index.php/Petrus_Method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Heise: &lt;a href="https://speedsolving.com/wiki/index.php/Heise_Method"&gt;https://speedsolving.com/wiki/index.php/Heise_Method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CFOP usually starts with a layer-by-layer: &lt;br&gt;
+&lt;a href="http://tinyurl.com/layer-by-layer"&gt;http://tinyurl.com/layer-by-layer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Roux: &lt;a href="https://speedsolving.com/wiki/index.php/Roux"&gt;https://speedsolving.com/wiki/index.php/Roux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;EOLine/ZZ: &lt;a href="https://speedsolving.com/wiki/index.php/EOLine"&gt;https://speedsolving.com/wiki/index.php/EOLine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are even more methods avaliable at the wiki (corners first, columns first, and (more than) a few esoteric ones as well.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Finding beauty in the dissonance...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Interesting New Information...</title><description>&lt;p&gt;--Again, welcome to my madness...&lt;/p&gt;
+
+&lt;p&gt;It has been a busy few days for me, and I haven't had much time to focus on coding , but that hasn't stopped my quest for knowledge!&lt;/p&gt;
+
+&lt;p&gt;Since I'm not involved in any kind of coding at my "job," I tend to spend a lot&lt;/p&gt;</description><link>http://localhost:2368/2015/10/27/interesting-new-information/</link><guid isPermaLink="false">96e4d29b-bdb1-4e1b-826f-81e155e685aa</guid><category>Languages</category><category>Madness</category><category>Tools</category><dc:creator>Lament Configuration</dc:creator><pubDate>Wed, 28 Oct 2015 00:57:45 GMT</pubDate><content:encoded>&lt;p&gt;--Again, welcome to my madness...&lt;/p&gt;
+
+&lt;p&gt;It has been a busy few days for me, and I haven't had much time to focus on coding , but that hasn't stopped my quest for knowledge!&lt;/p&gt;
+
+&lt;p&gt;Since I'm not involved in any kind of coding at my "job," I tend to spend a lot of time researching  programming, and programming concepts. I have several interests, all (mostly) converging towards a long-term goal. I also have some ideas and ideals for how to approach these goals, and would like to understand and implement them as early on in my coding "re initiation" as possible.&lt;/p&gt;
+
+&lt;p&gt;I understand that was quite vague, bear with me, I am still putting everything together myself. Needless(?) to say, I have changed the major "base" language I want to pursue due to how different languages handle concurrency (a topic I will touch on more in the future). The short version is that while a LISP &lt;em&gt;can&lt;/em&gt; be utilized for concurrency, it doesn't inherently "understand" it. That is to say that the language supports it, but it has to be "baby-sat" and monitored in order to implement it properly (aka: safely).&lt;/p&gt;
+
+&lt;p&gt;This is not a "strike" against LISP in general, it is a result of when LISP was created. Lets remember that LISP was created when processors had only one core, that did not run very fast (by today's standards), and didn't have lots of memory to work with. Multiple/virtual cores, giga/terabytes, and distributed computing were computer-science dreams, possibly being worked on, and theorized about, but not implemented or seen as something that "needed to be handled" by a programming language. Although LISPs are able to adapt and utilize the current methods of implementing concurrency in languages that were not originally designed for it, they aren't "designed" to write programs that are inherently safe running in a concurrent environment.&lt;/p&gt;
+
+&lt;p&gt;A tangent to this... &lt;br&gt;
+I enjoy having choices in a language (mutable/immutable data, functional/imperative paradigms, lazy or strict evaluation), but I also like having the defaults be accommodating to my preferences in program structuring, as well as to the general approach I want to take with software development for the future. I would rather have the "safer" way be the "idiomatic" and built-in paradigm, and have to force the "unsafe" way explicitly when needed.&lt;/p&gt;
+
+&lt;p&gt;That being said, I want to hold off on posting about my "new" choice in languages (both until I can solidify a few things, as well as write a proper post and writeup) for a little bit. I want to emphasize that this is not a snub at Clojure in any way. It is a beautiful language, and I see it having a great future as a way to utilize the JVM with a language that is both easy to use, and very powerful. It (and LISPs in general) just aren't the "closest" to what I consider the "best fit" for my long term goals in coding.&lt;/p&gt;
+
+&lt;p&gt;--More "normal" coding stuff.
+I am about one-thousand lines in on the tutorial for making that roguelike (&lt;a href="http://goo.gl/7ujtoz"&gt;http://goo.gl/7ujtoz&lt;/a&gt;), and have gotten through section ten. I still intend on porting this tutorial to Hy, and then possibly to the new "language of choice," as I feel it is a great tutorial, as it lets one create something "usable" as well as also presenting good coding practices (building from the bottom up, modularity and code re-use, proper commenting). The tricky part will be duplicating the library (libtcod: &lt;a href="https://bitbucket.org/libtcod/libtcod"&gt;https://bitbucket.org/libtcod/libtcod&lt;/a&gt;) for the new platform.&lt;/p&gt;
+
+&lt;p&gt;I have also found a new editor that has really caught my eye, as it aims to combine two of my favorite tools (VIM and EMACS), into one super-deluxe-editor-of-awesomeness. It is called Spacemacs (&lt;a href="https://github.com/ajnsit/spacemacs"&gt;https://github.com/ajnsit/spacemacs&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Like I mentioned at the start of this post, I have been quite busy, but I hope to finish up that roguelike tutorial, and get a couple of solid posts out this week. I'm currently planning one on editors, one on concurrency, and another on the new language. I'll probably toss in one that is a bit off-topic (for the blog) as well (just to keep things interesting).&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(concurrently and lazily pondering an infinite list...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>The Chosen... (updated...)</title><description>&lt;p&gt;As promised...&lt;/p&gt;
+
+&lt;p&gt;I know, I haven't spent much time talking (directly) about the language I've chosen to pursue, mostly because I want to be able to sound as objective as possible in describing why I chose it...&lt;/p&gt;
+
+&lt;p&gt;... oh well, here goes!&lt;/p&gt;
+
+&lt;p&gt;I chose Clojure (&lt;a href="http://clojure.org/"&gt;http://clojure.org/&lt;/a&gt;)!&lt;/p&gt;
+
+&lt;p&gt;Why Clojure? Especially&lt;/p&gt;</description><link>http://localhost:2368/2015/10/25/the-chosen/</link><guid isPermaLink="false">72635333-972e-4b46-ad5f-9265cb6eaa09</guid><category>Languages</category><dc:creator>Lament Configuration</dc:creator><pubDate>Mon, 26 Oct 2015 03:27:36 GMT</pubDate><content:encoded>&lt;p&gt;As promised...&lt;/p&gt;
+
+&lt;p&gt;I know, I haven't spent much time talking (directly) about the language I've chosen to pursue, mostly because I want to be able to sound as objective as possible in describing why I chose it...&lt;/p&gt;
+
+&lt;p&gt;... oh well, here goes!&lt;/p&gt;
+
+&lt;p&gt;I chose Clojure (&lt;a href="http://clojure.org/"&gt;http://clojure.org/&lt;/a&gt;)!&lt;/p&gt;
+
+&lt;p&gt;Why Clojure? Especially given my dislike for Java? Turns out there is a good reason!&lt;/p&gt;
+
+&lt;p&gt;The reason is: the JVM. Yes, not Java itself, but the VM it runs on. The incredible portability, coupled with the vast ecosystem of libraries available to languages that run on the JVM, made pursuing an "alternate" language to run on the JVM, a "good idea" (at least to me).&lt;/p&gt;
+
+&lt;p&gt;Why Clojure? Well, it is a LISP-inspired language, primarily functional in nature, with a syntax that makes me comfortable (yes, I &lt;em&gt;like&lt;/em&gt; parenthesis!), and development tools that permit my preferred workflow when working on a program (the REPL and Leiningen (&lt;a href="http://leiningen.org/"&gt;http://leiningen.org/&lt;/a&gt;)  a build tool in Clojure, for Clojure).&lt;/p&gt;
+
+&lt;p&gt;There are several other JVM languages as well, but none of them strive to be a LISP, they all have a shift away from what Java is, in an attempt to address various issues, but Clojure is the one that addresses mine the best. Let me touch on why those didn't "make it" for me.&lt;/p&gt;
+
+&lt;p&gt;Ceylon (&lt;a href="http://www.ceylon-lang.org/"&gt;http://www.ceylon-lang.org/&lt;/a&gt;) is the language that frustrated me to no end trying to use Eclipse (a "Heavyweight IDE"), however, there are some neat things (union and intersection types, type inference) in Ceylon, so I'll be keeping my eye on it.&lt;/p&gt;
+
+&lt;p&gt;Groovy (&lt;a href="http://www.groovy-lang.org/"&gt;http://www.groovy-lang.org/&lt;/a&gt;) just doesn't feel very different from Java, it is a different approach (that some love), but, to me,it feels like a strange combination of the elements of Java and Python that I enjoy the least.&lt;/p&gt;
+
+&lt;p&gt;Scala (&lt;a href="http://www.scala-lang.org/"&gt;http://www.scala-lang.org/&lt;/a&gt;) actually tempted me and held my attention for a bit before I found Clojure. I like a &lt;strong&gt;lot&lt;/strong&gt; about Scala. To me it feels like the D to Java's C++. Very refined, very powerful, but still imperative/object-oriented at it's heart. I also like it a lot because it seems as though interop between it and Clojure is relatively easy (I'm going to assume it isn't "perfect" &lt;em&gt;and&lt;/em&gt; that it is also possible with Ceylon and Groovy, in case I find some really neat bits there).&lt;/p&gt;
+
+&lt;p&gt;Now Clojure: It is very hard to find anything I truly dislike about this language. Yes, the JVM does not start up quickly. I am not terribly worried about this right now due to the scope of what I plan on developing. The fact that the JVM is everywhere is far far more important to me.&lt;/p&gt;
+
+&lt;p&gt;Clojure also has a paradigm and syntax that I am comfortable with, an approach to creating code that feels natural. This has been quite obvious to me the past few days, as I've been working on something that isn't in a LISP-esq language.&lt;/p&gt;
+
+&lt;p&gt;I have been working a "Rougelike" game in Python, following this tutorial: &lt;a href="http://tinyurl.com/o2325sc"&gt;http://tinyurl.com/o2325sc&lt;/a&gt;. I have been doing this in order to actually attempt to create a version of the tutorial for Hy (a language that draws inspiration from Clojure, but is Python-compatible). I am doing this for several reasons: &lt;br&gt;
+1) I needed a project that had more meat than the tutorials I was finding in general. &lt;br&gt;
+2) Roguelikes (&lt;a href="https://en.wikipedia.org/wiki/Roguelike"&gt;https://en.wikipedia.org/wiki/Roguelike&lt;/a&gt;) are cool. &lt;br&gt;
+3) I'd like to contribute something nice to the Hy community. &lt;br&gt;
+4) It will give me practice to create it for Clojure (I will probably have to dissect and recreate the libtcodpy to some extent to move it to Clojure, and I'm not quite ready for that yet).&lt;/p&gt;
+
+&lt;p&gt;Coding and debugging Python has definitely gave me moments saying "Why isn't this abstracted to a function!?" (when writing boilerplate for the 10th time) or "If I only had some parenthesis to control nesting instead of just whitespace?" (when tracking down an annoying bug). I truly am a LISP-er at heart, and I truly thank the Clojure community for helping to support and grow such a wonderful language.&lt;/p&gt;
+
+&lt;p&gt;Functional programming and LISPs have opened my eyes to coding in a way they have never been open before. I &lt;em&gt;knew&lt;/em&gt; what I was doing when I was learning C++ and Java, but I didn't &lt;em&gt;understand&lt;/em&gt; or know &lt;em&gt;why&lt;/em&gt; I was doing things. I could write out boilerplate code all day, but the way data and functions are treated in those languages doesn't "mesh" with how I tend to picture data flowing.&lt;/p&gt;
+
+&lt;p&gt;--Now, back to the focus of this post. A bonus of Clojure is that it has superb interop with Java when needed. There are a few things that Clojure either doesn't optimize well, or the coding is just awkward and inelegant (which is both no fun to work with, and against my vision of a Clojure program in the first place). In those cases, one can seamlessly implement Java techniques to handle it (and as mentioned above, it should be possible to use techniques from the other JVM languages as well).&lt;/p&gt;
+
+&lt;p&gt;Another bonus of Clojure is that it also has a compiler for JavaScript (&lt;a href="https://en.wikipedia.org/wiki/JavaScript"&gt;https://en.wikipedia.org/wiki/JavaScript&lt;/a&gt;) allowing access to another widely-distributed platform, adding even more functionality and "value" to learning it (this is not unique to Clojure out of the JVM languages, but it is still pretty sweet regardless). There is even a compiler targeting the CLR (&lt;a href="http://tinyurl.com/6q3ffm9"&gt;http://tinyurl.com/6q3ffm9&lt;/a&gt;) to target Microsoft's .Net virtual machine.&lt;/p&gt;
+
+&lt;p&gt;All of this would be well and good for a sales pitch, but Clojure still has an ace up its sleeve. The community. There are a vast number of tutorials and community resources to help one "get" Clojure (I do crack myself up...). The #clojure chatroom on Freenode (&lt;a href="https://freenode.net/"&gt;https://freenode.net/&lt;/a&gt;) is absolutely one of the most helpful group of people I have ever had the pleasure of asking for help. Just remember, nobody is getting paid to be in there, if you don't get an answer right away, just be patient, or say you are leaving (if you have to go), and then come back later (announce your leaving so someone doesn't type out the answer only to have you not be there, some of us don't have show joins/parts on &gt;.&amp;lt;).&lt;/p&gt;
+
+&lt;p&gt;Well, I think that's about it for this post. I know I've only touched on a few things, but I will now be able to start posting about "All things Clojure" (tips, tidbits, examples, rants, ponderings, etc.) here soon. (flip side. Catch you on the).&lt;/p&gt;
+
+&lt;p&gt;note: there is an update to this post here: (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/27/interesting-new-information/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/27/interesting-new-information/&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(look: there are comments now!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>The Right Tools For The Task...</title><description>&lt;p&gt;--I am not a fan of big, heavy IDEs. There, I said it. More than not being a fan, I truly detest these tools for how much of the process of making code gets hidden, buried deep within some helper plugin or whatnot. Do they have a purpose? Yes, of&lt;/p&gt;</description><link>http://localhost:2368/2015/10/24/the-right-tools-for-the-job-s/</link><guid isPermaLink="false">60cf517c-57c7-4bb8-9b3b-9ef6c5b838e1</guid><category>Tools</category><category>Rant</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sun, 25 Oct 2015 04:22:30 GMT</pubDate><content:encoded>&lt;p&gt;--I am not a fan of big, heavy IDEs. There, I said it. More than not being a fan, I truly detest these tools for how much of the process of making code gets hidden, buried deep within some helper plugin or whatnot. Do they have a purpose? Yes, of course, but I feel that too many get pushed into using/relying on them too early in their time spent coding.&lt;/p&gt;
+
+&lt;p&gt;Let me clarify a bit... &lt;br&gt;
+Do I feel that every single one of the tools presented by a Heavyweight IDE (H-IDE) is useful? Yes, they all have their place. Do I think that someone learning &lt;em&gt;any&lt;/em&gt; language should jump right in (by choice or by requirement for ciriculum) to something like Eclipse or Visual Studio? Absolutely not.&lt;/p&gt;
+
+&lt;p&gt;I am not saying that everyone should start completely in a command line / non-mouse text editor for "Hello World!" but I am saying that learning the little things (like a REPL or compiler) from the beginning, help to create a more solid connection to the language.&lt;/p&gt;
+
+&lt;p&gt;However, there are a few editor features which really do help when starting off. The most important is a configurable indent, most languages have a standard number of "spaces" to indent (and often must be done with "space" characters and not "tab" characters) in order to compile/run correctly. Everything else truly is optional beyond this point in an editor. As long as you can set what the tab key does explicitly, you have the minimum. Auto-indenting also helps remove a lot of "busy-keystrokes" when coding.&lt;/p&gt;
+
+&lt;p&gt;Another simple, but powerful tool is good syntax highlighting (in a theme that helps &lt;em&gt;you&lt;/em&gt; distinguish elements and is easy to read for extended periods of time). Syntax highlighting helps to give some "meat" to the "bones" of the code (the words), and can even help spot errors (print() (the function) will show up differently than print (the symbol/class/etc.) with good syntax highlighting) that could otherwise be very easy to glance over when reading through code. Realistically, I am probably over-dependent on good syntax highlighting to be productive.&lt;/p&gt;
+
+&lt;p&gt;Finally, the only truly "optional" tool that I really can't do without is good console integration. Again, this really isn't a mandatory thing to make writing code pleasant, but it kicks in when you start developing a program. This integration is not very useful though if the editor is rendered useless while anything is "active" in the console. Realistically this shines a lot more when the language has an interactive REPL (Read Evaluate Print Loop - basically an interactive playground for code bits) than with a language that must be compiled completely first.&lt;/p&gt;
+
+&lt;p&gt;For a beginner, everything else just gets in the way of learning what is going on "behind the scenes" with the code, learning how to interpret oft-cryptic error messages earlier will come in handy when you manage to create one that the fancy debugger chokes on. Or getting used to compiler nuances can help when you have to start optimizing the code at the compile level.&lt;/p&gt;
+
+&lt;p&gt;When you get the point where you are working on huge projects, with many contributors and files, that is truly where the giant H-IDEs shine, especially if the code is not able to be created in a way that is modular enough that someone can work on a chunk independently of the rest of the code (nested dependency hell what?)&lt;/p&gt;
+
+&lt;p&gt;Realistically, there should be no reason that it takes longer to setup the H-IDE than to write "Hello World!" Sure, you will be using the same steps on everything from that tiny 1-liner up to huge files, and you will be saving time with the huge projects, but... still, it is letting the H-IDE do too much of the "basics" without explaining what is going on or why. There is no doubt that learning to make a proper project structure is very important, but it can be introduced gradually, in a way that doesn't require the IDE to do all the work. Learn why the IDE does things the way it does, so if you need to change something, you have an idea of where to start. Every tool has it's place, but writing "Hello World!" in a H-IDE is like using a chainsaw to whittle a stick...&lt;/p&gt;
+
+&lt;p&gt;Yes, I am old-school when it comes to this idea. I must admit I feel very "relaxed" when coding in an editor with a few "goodies" to help smooth out the workflow. Whereas the last two times I tried to get one of the H-IDEs going, I spent more time trying to make sure all of the plugins were configured correctly and "talking" properly to each other in order to avoid having warnings about things I was not even intending on using for a simple beginner's introduction to the language.&lt;/p&gt;
+
+&lt;p&gt;With that being said, I hope to see you all tomorrow when I (finally) discuss the language I've chosen to really focus on, although there have been some clues along the way, and maybe some of you have guessed it by now! &lt;br&gt;
+(oh, and don't worry, I'll throw some gasoline on the Holy Fire that is emacs vs. vim in a later post...)&lt;/p&gt;
+
+&lt;p&gt;Sincerely, &lt;br&gt;
+--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(note: guilty of ranting while perplexed...)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A Quick Change Of Mind...</title><description>&lt;p&gt;Welcome to my madness...&lt;/p&gt;
+
+&lt;p&gt;It was only yesterday (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/&lt;/a&gt;) that I was praising Racket as my Scheme of choice, and already I am going to change the context in which I recommend it.&lt;/p&gt;
+
+&lt;p&gt;As a language to learn, especially for someone new&lt;/p&gt;</description><link>http://localhost:2368/2015/10/23/a-qick-change-of-mind/</link><guid isPermaLink="false">675f28ec-7d0a-4e4b-9613-35c40b1e0307</guid><category>Languages</category><category>Scheme</category><category>Madness</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sat, 24 Oct 2015 03:30:50 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to my madness...&lt;/p&gt;
+
+&lt;p&gt;It was only yesterday (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/&lt;/a&gt;) that I was praising Racket as my Scheme of choice, and already I am going to change the context in which I recommend it.&lt;/p&gt;
+
+&lt;p&gt;As a language to learn, especially for someone new to programming. I honestly feel that Racket (&lt;a href="http://racket-lang.org/"&gt;http://racket-lang.org/&lt;/a&gt;) is incredibly hard to beat. It has a rare combination of ingredients, that combine to set up a newbie programmer for not only success, but fun!&lt;/p&gt;
+
+&lt;p&gt;The first thing that it has going for it is the fact that DrRacket is "batteries included" once you get it installed. It comes with a solid IDE, as well as a compiler, as well as libraries that are easy to integrate should one need them.&lt;/p&gt;
+
+&lt;p&gt;Secondly, with "How To Design Programs" (HTDP: &lt;a href="http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html"&gt;http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html&lt;/a&gt;) along with the companion (&lt;a href="http://htdp.org/2003-09-26/Companion/"&gt;http://htdp.org/2003-09-26/Companion/&lt;/a&gt;), the language being used grows with your ability and learning. &lt;br&gt;
+&lt;em&gt;Note: I know there is a second version of the book, but it isn't complete yet, and you can go through after and see what changes/updates have happened if you really want to stick with Racket.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, as to why I'm changing how I feel about it, I wanted to follow a Scheme with an interpreter/compiler that was (or is) going to continue following the Scheme standards. AFAIK Racket does not plan on following R7RS (the current "standard" for Scheme), but is forging its own path (again, there is &lt;strong&gt;nothing&lt;/strong&gt; wrong with this, it just doesn't fit my needs/wants in a Scheme).&lt;/p&gt;
+
+&lt;p&gt;So, to reiterate in closing: I still have a LOT of respect and fond feelings for Racket, I just do not see a point in following a language that doesn't give me what I want from it. Scheme being a minimalist language (at heart), is something that I would like to see more of, at least as an option. R6RS is already a very full-featured Scheme, and I agree with the "Steering Committee" that there should be a minimalist version of R7RS as well as a more feature heavy one, but standardized to "be a Scheme" (yes, if this sounds like nit-picking, it is).&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(note: currently seeking Scheme)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

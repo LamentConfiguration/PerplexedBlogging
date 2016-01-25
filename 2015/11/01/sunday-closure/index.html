@@ -1,0 +1,210 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sunday Closure...</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=21e155d081">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Functionally Perplexed!">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Sunday Closure...">
+    <meta property="og:description" content='Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (: --Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some "office" suite and be more than...'>
+    <meta property="og:url" content="http://localhost:2368/2015/11/01/sunday-closure/">
+    <meta property="article:published_time" content="2015-11-02T03:46:47.695Z">
+    <meta property="article:modified_time" content="2015-11-02T03:51:51.445Z">
+    <meta property="article:tag" content="Editor">
+    <meta property="article:tag" content="Concurrency">
+    <meta property="article:tag" content="Game Dev">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sunday Closure...">
+    <meta name="twitter:description" content='Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (: --Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some "office" suite and be more than...'>
+    <meta name="twitter:url" content="http://localhost:2368/2015/11/01/sunday-closure/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Functionally Perplexed!",
+    "author": {
+        "@type": "Person",
+        "name": "Lament Configuration",
+        "url": "http://localhost:2368/author/the-perplexed-one",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Sunday Closure...",
+    "url": "http://localhost:2368/2015/11/01/sunday-closure/",
+    "datePublished": "2015-11-02T03:46:47.695Z",
+    "dateModified": "2015-11-02T03:51:51.445Z",
+    "keywords": "Editor, Concurrency, Game Dev",
+    "description": "Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (: --Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some &quot;office&quot; suite and be more than..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Functionally Perplexed!" href="../../../../rss/index.html">
+</head>
+<body class="post-template tag-editor tag-concurrency tag-game-dev nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../../../../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-editor tag-concurrency tag-game-dev">
+
+        <header class="post-header">
+            <h1 class="post-title">Sunday Closure...</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-11-01">01 November 2015</time>  on <a href="../../../../tag/editor/">Editor</a>, <a href="../../../../tag/concurrency/">Concurrency</a>, <a href="../../../../tag/game-dev/">Game Dev</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (:</p>
+
+<p>--Editors really are a touchy thing, especially amongst programmers. While the average computer user will use some "office" suite and be more than happy, the coder needs some features that those will never offer (syntax highlighting, interfacing with the compiler to "lint" code, etc.). Also, editors have been used for coding for longer than computers have been used for making documents. Editors from the era "before documents" are regarded with almost religious fanaticism. The holy war of editors will never end, with each side regarding their editor as better, while secretly pining for the features the "other side" does better (and the Internet will laugh forever). Both major sides (Emacs and vim) have their trade-offs, and in their stock forms, there are definite pros and cons to each. However, I find trade-offs to be a rather discouraging thing, why can't one have both?</p>
+
+<p>Vim's power lies in its modal approach to the interface, there are different modes for inputting text, moving the cursor around, and doing "stuff" to your file. It uses a lot of mnemonic patterns while in the alternate (non-text-input) modes, as well as aiming to keep one's fingers on the home row. This allows for very fast, fluid and "easy" use of the editor. Vim is my preferred editor due to this modal interface and mnemonic "patterning" of commands.</p>
+
+<p>Emacs' power is in how it is not designed as a text editor, but as an "operating system" of sorts, that happens to have a very extensible text editor! Emacs truly can serve as a command station for computing. But again, I'm not here to extol the virtues of one OR the other, I want the best of both! And while there are ways to get Emacs setup to be modal, most options involve installing and configuring multiple extensions to work together. Not an impossible task, but not a pleasant one either.</p>
+
+<p>This brings me to my latest obsession in editors: spacemacs_ (<a href="https://github.com/ajnsit/spacemacs">https://github.com/ajnsit/spacemacs</a>). It strives to take the power of Emacs, make extending it more standardized, and include the option to use a well implemented modal editing mode (it is the default actually). Heck, it even allows a "hybrid" of the modal (vim) and non-modal (Emacs) modes, and if none of those three fit you perfectly, you can tweak it to your heart's content!</p>
+
+<p>It has a nice system for managing extensions, a standardized implementation for these extensions, and an active and enthusiastic community supporting it. If there ever was a project that could attempt to unite the Emacs and vim camps, this would be it. I feel that members of both camps (or those of you who are currently using something else) should give it an honest try, if only to see what the "other side" has, without giving up what "their side" has already. I mean seriously, nothing to lose for anyone!</p>
+
+<p>As a side note, Atom (<a href="http://atom.io">http://atom.io</a>) is great for languages that are very well supported in it, or languages where you just want some tasty syntax highlighting. It is lightweight and has a lot going for it, it just doesn't feel robust yet, and neither the vim or Emacs keybinding packages integrate as well as I'd like, and sometimes plugins for different languages don't play nicely with each other at load time (not a huge deal, just enable/disable as needed and restart it). After using it to do the roguelike tutorial, I personally feel that about 1,000 lines of code is about the most I could handle at a time with it.</p>
+
+<p>--Now onto concurrency:
+Or should I say "the future of computing?" Either is an acceptable expression. Will the "average" user benefit from concurrency? Probably somewhat as their operating systems get better at putting their applications on different cores, or their web browser becomes more capable of concurrency. But this is not where concurrency can show its true power. Concurrency shines when massive amounts of data need to be processed at the same time. The two major players who are interested in concurrency are "big data" and the gaming industries. "Big data" is interested because concurrency has been their model from day one. It is their bread and butter. The gaming industry is interested because it would allow them to harness the multi-core future of computing better. Honestly, everyone should be interested in concurrency due to the fact that processors are adding more cores now instead of bumping clock rates.</p>
+
+<p>But to touch more on the games, since that is where my interest really lies, lets go back in time to the era where computer games really started to catch on, lets say around the Doom II era. Hardware then was still single-core, and optimizing for that hardware was getting the most things to happen on one core at a time. A coder didn't have to worry about some other piece of code trying to utilize the same data, and mutable data structures were able to be modified within functions, instead of passing them in and out, saving clock cycles. Functional languages were at a disadvantage to imperative languages here, c++ reigned supreme due to its ability to use objects to create a way to group data into entities, a strong interface with the established c libraries, and the ability to write really tight loops by "inlining" assembly code.</p>
+
+<p>The problem with this today (and this really has nothing to do inherently with c++) is that the individual cores in processors are not getting much faster anymore, but they are adding cores to chips regularly. Hell, even cellphones are up to quad-core chips now! This is all fine and dandy for joe/jane average, allowing them to multitask between a few apps on their phone easier, but this is not really concurrency, as it is the OS directing the traffic to the various cores. True, for most uses (even games) the OS will still be "in charge" of where different things go, but this hasn't been the problem with game engines.</p>
+
+<p>The problem lies in the fact that legacy code, is still done in c++ (mostly) which has support for concurrency, but does not enforce coding that inherently makes it "safe" to implement (again, not slamming c++, it is possible to do safe, concurrent programming in c++, it is just not "idiomatic", "default" or "enforced" in any way). So harnessing the other cores<strong>**</strong> is a risky thing, especially with the large amount of code involved in a game engine. I feel that this inability to harness multiple cores in a game is what has lead us to these "4k 120hz" type displays, the GPU has so much power available that it can easily calculate the pixels for a higher resolution, but what if the combined power of more cores could be leveraged into better renderers, motion algorithms, fluid simulations, etc. at a lower (say 1080p) resolution. More pixels are not going to make a game more "realistic." Smarter AIs and better, more natural movements of models (both "prime" movements like lifting an arm, and "secondary" movements, like the sleeve on their robe, or their hair when they run their hand through it) would go a lot further towards creating a more realistic and immersive experience for the user.</p>
+
+<p>Personally, I find the challenge of making a better AI, more realistic physics model, or a renderer that can create very detailed textures in very little time, far more satisfying than trying to optimize a loop "on the metal" to get it to run faster on just one core.</p>
+
+<p><strong>**</strong>Note it really isn't using another core that poses a problem, it is making sure that two (or more) threads do not try and edit the same location in memory. Or manually managing the "locks" that prevent this from happening. Many titles will offload things like audio decompression, voice/text communication, etc. to another core, but all the "important" stuff stays on one core.</p>
+
+<p>--The Perplexed One</p>
+
+<p>(Doing more... with more!)</p>
+
+<p><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">http://lamentconfiguration.github.io/PerplexedBlogging/</a></p>
+        </section>
+
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'perplexedblogging'; // required: replace example with your forum shortname
+	    var disqus_identifier = '';
+ 
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../../../../author/the-perplexed-one/">Lament Configuration</a></h4>
+
+                    <p>Read <a href="../../../../author/the-perplexed-one/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Sunday%20Closure...&amp;url=http://localhost:2368/2015/11/01/sunday-closure/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/11/01/sunday-closure/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2015/11/01/sunday-closure/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../06/a-very-long-week/">
+        <section class="post">
+            <h2>A Very Long Week...</h2>
+            <p>--Who would have thought that a 4-day work week would feel so very long... --Finally getting a break, and…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../../10/31/full-circle/">
+        <section class="post">
+            <h2>Full Circle...</h2>
+            <p>--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../../../../">Functionally Perplexed!</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=21e155d081"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=21e155d081"></script>
+
+</body>

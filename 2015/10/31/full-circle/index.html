@@ -1,0 +1,200 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Full Circle...</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=21e155d081">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Functionally Perplexed!">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Full Circle...">
+    <meta property="og:description" content="--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on...">
+    <meta property="og:url" content="http://localhost:2368/2015/10/31/full-circle/">
+    <meta property="article:published_time" content="2015-11-01T00:55:55.095Z">
+    <meta property="article:modified_time" content="2015-11-01T01:02:22.367Z">
+    <meta property="article:tag" content="Haskell">
+    <meta property="article:tag" content="Languages">
+    <meta property="article:tag" content="Interests">
+    <meta property="article:tag" content="Madness">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Full Circle...">
+    <meta name="twitter:description" content="--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on...">
+    <meta name="twitter:url" content="http://localhost:2368/2015/10/31/full-circle/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Functionally Perplexed!",
+    "author": {
+        "@type": "Person",
+        "name": "Lament Configuration",
+        "url": "http://localhost:2368/author/the-perplexed-one",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Full Circle...",
+    "url": "http://localhost:2368/2015/10/31/full-circle/",
+    "datePublished": "2015-11-01T00:55:55.095Z",
+    "dateModified": "2015-11-01T01:02:22.367Z",
+    "keywords": "Haskell, Languages, Interests, Madness",
+    "description": "--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Functionally Perplexed!" href="../../../../rss/index.html">
+</head>
+<body class="post-template tag-haskell tag-languages tag-interests tag-madness nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../../../../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-haskell tag-languages tag-interests tag-madness">
+
+        <header class="post-header">
+            <h1 class="post-title">Full Circle...</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-10-31">31 October 2015</time>  on <a href="../../../../tag/haskell/">Haskell</a>, <a href="../../../../tag/languages/">Languages</a>, <a href="../../../../tag/interests/">Interests</a>, <a href="../../../../tag/madness/">Madness</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>--Now that I have completed the roguelike tutorial (it runs fine so far, not every edge case has been hit, so I am not calling the program done, just the tutorial) I am going to move on, get back on track, and start pursuing the endgame again.</p>
+
+<p>Like I mentioned before (<a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/">http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/</a>) Haskell  is a challenge to my brain, <em>but</em> it feels like the same challenge as understanding theoretical physics, or solving a Rubik's cube intuitively (at least to me). I enjoy that challenge, and the reward has always been well worth the effort. I am choosing to pursue Haskell (especially after learning about Frege: <a href="http://tinyurl.com/Frege-lang">http://tinyurl.com/Frege-lang</a>  I still think the JVM can help with some of my more intermediate goals (more on Frege and the JVM another time)). </p>
+
+<p>I am going to be using "Haskell Programming - from first principles" (<a href="http://haskellbook.com/">http://haskellbook.com/</a>) as my core guide, as well as various other recommended tutorials, which I will touch on as I do them. If I refer to "The Book" chances are it is this tome of excellence.</p>
+
+<p>Now... why Haskell? Yes, the libraries and cabal can be... special (part of the reason I am also interested in Frege for the time being), but the fact is, I feel much more confident in my ability to (learn to) write library bindings in the FFI (C is the target language), than I am in my ability to manually implement a system that is designed to be concurrent. Haskell, being both pure and functional (with ways to handle both imperative and impure requirements), <em>is</em> able to run concurrently without any chances of a deadlock or race condition! Realistically, concurrency is going to be the way to get performance for any kind of application in the future, chips are not getting faster, but they are getting more cores (virtual and hardware). Concurrency is going to be a key and critical issue in software for the future.</p>
+
+<p>I feel that taking some time away from Haskell (I gave it a good month to try and learn it when it caught my attention right off the bat when I was looking for a language to learn (for basically the same reasons I ended up back at it)), and taking some time with LISPs/Schemes (and some time spent doing imperative coding with Python and D), gave my brain a chance to reboot to coding, to get back into the mindset of working with code, manipulating data, and (ugh) debugging. The frustrations I faced with those languages (mostly with Python in terms of use, I still love LISPs/Schemes, and encourage anyone interested in coding to spend some time with one), has made Haskell even more of the obvious choice than it already was. </p>
+
+<p>Speaking about first-class functions. I love how having them available makes one focus on creating many smaller functions, that can be combined to form more powerful operations on data. If in the end, a function is only used once, it can be abstracted into a lambda to be more efficient. It is little things like that, the ease and elegance of how it works with Haskell (every function only takes one argument, and returns one argument, functions (in Haskell) that take more than one argument are said to be "curried," and this is an absolutely brilliant and elegant approach to handling first-class functions) makes the creation of functions that "do" what the coder wants, extremely easily.</p>
+
+<p>Truly, the fact that Haskell allows functions to take more than one type of data (depending on the specific function, the "+" function can not take the letter b and number 3 and give a result (under normal circumstances)), and encourages the type signatures of a function to be as accommodating as possible, leads one to think in much more abstract (but elegant and efficient) terms when it comes to manipulating data. Abstraction is a very powerful tool in both math and computer programming. Haskell is one of the few languages to harness these abstractions and make them available to the coder directly. Yes there is a trade off, I feel like I will be writing more pseudocode and flow charts <em>before</em> actual code, but I also feel like I will spend a lot less time debugging (and no, spending that time pseudocoding and flowcharting with the other languages would not provide the same benefits to debugging as doing it with Haskell, they "build" differently and encourage a different thought process). This is a tradeoff I can more than happily make, especially since Haskell does have a REPL (it has a few quirks, but they are acceptable).</p>
+
+<p>To be honest, I was still a bit hesitant to post this. I know how I <em>feel</em> about Haskell, the bullet points that make it so very awesome, and some very basic reactions as to why I like those points. But at the same time, I haven't learned enough to give a good explanation of why those things are so awesome (both in general, and to me), but then I realized that I could post about them as I go along, share my revelations and discoveries, and maybe after a good two (or more) readings through "The Book" put it into my own words to explain to the few readers who manage to stick around that long!</p>
+
+<p>--The Perplexed One (10 posts!)</p>
+
+<p>(Abstracting it all away)</p>
+
+<p><a href="http://lamentconfiguration.github.io/PerplexedBlogging/">http://lamentconfiguration.github.io/PerplexedBlogging/</a></p>
+        </section>
+
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    var disqus_shortname = 'perplexedblogging'; // required: replace example with your forum shortname
+	    var disqus_identifier = '';
+ 
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../../../../author/the-perplexed-one/">Lament Configuration</a></h4>
+
+                    <p>Read <a href="../../../../author/the-perplexed-one/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Full%20Circle...&amp;url=http://localhost:2368/2015/10/31/full-circle/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2015/10/31/full-circle/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2015/10/31/full-circle/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../../11/01/sunday-closure/">
+        <section class="post">
+            <h2>Sunday Closure...</h2>
+            <p>Earlier this week I mentioned I would post about editors, and concurrency this week, so here goes (: --Editors really…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../29/some-more-about-me/">
+        <section class="post">
+            <h2>(Some More) About Me</h2>
+            <p>--Firstly, I change my editor syntax theme colors... frequently.  --Secondly, I know (too?) many different "approaches" to solving the…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../../../../">Functionally Perplexed!</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=21e155d081"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=21e155d081"></script>
+
+</body>
