@@ -1,5 +1,33 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Functionally Perplexed!</title><description>Puzzling out functional code, one lambda at a time...
-(and other perplexed ponderings).</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 25 Jan 2016 02:56:37 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>A (relatively) Short Strange Trip...</title><description>&lt;p&gt;It has been quite some time since I've tormented you few readers...&lt;/p&gt;
+(and other perplexed ponderings).</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Wed, 27 Jan 2016 01:26:46 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>(= Clojure Awesome) =&gt; True</title><description>&lt;p&gt;While digging into Clojure (admittedly I never stopped looking and marveling at it even while pursuing other languages), I have been unable to resist digging into what Lisps are. Partially in an attempt to understand them, and partially to understand why they work so well with me.&lt;/p&gt;
+
+&lt;p&gt;During these explorations&lt;/p&gt;</description><link>http://localhost:2368/2016/01/26/clojure-awesome-true/</link><guid isPermaLink="false">d231c919-a8a8-4dfa-8289-bed6f5705078</guid><category>Clojure</category><category>Rant</category><category>Random</category><dc:creator>Lament Configuration</dc:creator><pubDate>Wed, 27 Jan 2016 01:25:45 GMT</pubDate><content:encoded>&lt;p&gt;While digging into Clojure (admittedly I never stopped looking and marveling at it even while pursuing other languages), I have been unable to resist digging into what Lisps are. Partially in an attempt to understand them, and partially to understand why they work so well with me.&lt;/p&gt;
+
+&lt;p&gt;During these explorations I have come across an incredible amount of information that has helped me start to learn how to harness Clojure, and to apply it to the problems I intend to tackle.&lt;/p&gt;
+
+&lt;p&gt;Something that has &lt;em&gt;always&lt;/em&gt; irked me during my multitude of searches and readings are the people (usually in the Common Lisp camp) who absolutely lose their shit when anyone dares claim anything but "Common Lisp" is a lisp at all. Some of them even go as far as to claim that Scheme is not a Lisp (it goes without saying that Clojure is most assuredly not a lisp in their eyes).&lt;/p&gt;
+
+&lt;p&gt;On the other side of the fence. Clojurians embrace the parts of lisp that have been incorporated into Clojure, and fully recognize that Clojure is not "Common Lisp" it is a language inspired by lisp, but forging its own path while not forgetting its roots.&lt;/p&gt;
+
+&lt;p&gt;The most superficial difference is probably the fact that Clojure uses all sorts of brackets, and not just parenthesis, this provides some visual distinction for different datatypes. While I don't have any problems with parenthesis as the overly-dominant form of bracket, I can also appreciate the visual clues provided by Clojure's syntax.&lt;/p&gt;
+
+&lt;p&gt;There are other differences due to Clojure being designed to run on the JVM (as well as JavaScript and CLR runtimes). The developers are doing a good job of not requiring one to use "native" (i.e. java) code in most cases, but just like the (not so well known) type annotations in Common Lisp (or the more well known ffi concepts), knowing what is going on under the hood does help, and will come in handy.&lt;/p&gt;
+
+&lt;p&gt;But wait, isn't there Common Lisp (and Scheme) on the JVM already? Yes, there is ABCL, and Kawa, the difference is those implementations attempt to preserve the syntax (easy) and semantics (not always as easy) of those languages, instead of taking &lt;em&gt;concepts&lt;/em&gt; from those languages and implementing them in a way that is friendly with the JVM. This is the main reason I've chosen to go with Clojure first, it was designed from the ground up, to interop with the java world seamlessly. Common Lisp and Scheme are still somewhat islands unto themselves.&lt;/p&gt;
+
+&lt;p&gt;The "lonely island" phenomenon with Common Lisp and Scheme seems to have some root in the concept of "rolling your own" when it comes to implementing something that isn't provided by the language. It is true that both Common Lisp and Scheme offer the tools to do (just about?) anything you'd ever need to do with a language, as long as you are comfortable going very very deep into the language. It seems that doing something this way is almost (if not) a right of passage in those communities. While the achievement is definitely commendable, it also leads to a very fragmented and disjoint landscape for libraries that can even point someone in the right direction.&lt;/p&gt;
+
+&lt;p&gt;Clojure on the other hand, with its Java interop, as well as a constantly growing repository of quality native libraries, will almost always have &lt;em&gt;something&lt;/em&gt; to get one moving in the right direction, regardless of what kind of project it is. On a quick side note, it is also nice that unlike with Java itself, Clojure tends to favor using a few small libraries to add functionality, than implement a large framework, it is a much more modular and (often) lightweight approach which I find quite elegant. These factors combined with the warm and welcoming community around Clojure are a major reason I kept drifting back towards it while digging in deep to language/application research these past couple months.&lt;/p&gt;
+
+&lt;p&gt;One of the neat things I've found in my research is that Clojure is "enough" of a lisp to be able to hand-implement many of the things Common Lisp can, but due to the incredible community, someone else already has, so if you are like me at this point, and &lt;em&gt;want&lt;/em&gt; to do it yourself, you can find code (and often people!) who are willing to help you work through and truly understand what is going on.&lt;/p&gt;
+
+&lt;p&gt;While these are the main reasons I've been drawn (back) to Clojure, a couple others of note are: 1) It is standardized, there is just Clojure, not a bunch of different versions with slight differences in implementation details (most of which don't really matter until you get in "deep" but it is yet another level of fragmentation adding to the entry barrier). 2) It (Clojure) is (incredibly) easy to install and setup, and Leiningen is a tool very much in the spirit of Clojure itself (lightweight, simple, and works incredibly well). There are also online REPLs that make getting a "taste" very easy. And 3) Clojure is supported in all sorts of different editors, and usually supported quite well, ranging from the traditional emacs, to the slightly rebellious Vim, all the way up to more modern takes like Atom and LightTable, and full blown IDEs (Eclipse, IntelliJ). These factors make it a far more approachable language for those of us who need some help along the way.&lt;/p&gt;
+
+&lt;p&gt;--The Perplexed One&lt;/p&gt;
+
+&lt;p&gt;(Oh the irony of arriving back "home")&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A (relatively) Short Strange Trip...</title><description>&lt;p&gt;It has been quite some time since I've tormented you few readers...&lt;/p&gt;
 
 &lt;p&gt;I feel I have a lot to make up for in this regard. While I've been silent on the blogging front, the gears have been churning and grinding away.&lt;/p&gt;
 
@@ -456,28 +484,5 @@ Do I feel that every single one of the tools presented by a Heavyweight IDE (H-I
 --The Perplexed One&lt;/p&gt;
 
 &lt;p&gt;(note: guilty of ranting while perplexed...)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>A Quick Change Of Mind...</title><description>&lt;p&gt;Welcome to my madness...&lt;/p&gt;
-
-&lt;p&gt;It was only yesterday (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/&lt;/a&gt;) that I was praising Racket as my Scheme of choice, and already I am going to change the context in which I recommend it.&lt;/p&gt;
-
-&lt;p&gt;As a language to learn, especially for someone new&lt;/p&gt;</description><link>http://localhost:2368/2015/10/23/a-qick-change-of-mind/</link><guid isPermaLink="false">675f28ec-7d0a-4e4b-9613-35c40b1e0307</guid><category>Languages</category><category>Scheme</category><category>Madness</category><dc:creator>Lament Configuration</dc:creator><pubDate>Sat, 24 Oct 2015 03:30:50 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to my madness...&lt;/p&gt;
-
-&lt;p&gt;It was only yesterday (&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/2015/10/22/a-clarification-of-sorts/&lt;/a&gt;) that I was praising Racket as my Scheme of choice, and already I am going to change the context in which I recommend it.&lt;/p&gt;
-
-&lt;p&gt;As a language to learn, especially for someone new to programming. I honestly feel that Racket (&lt;a href="http://racket-lang.org/"&gt;http://racket-lang.org/&lt;/a&gt;) is incredibly hard to beat. It has a rare combination of ingredients, that combine to set up a newbie programmer for not only success, but fun!&lt;/p&gt;
-
-&lt;p&gt;The first thing that it has going for it is the fact that DrRacket is "batteries included" once you get it installed. It comes with a solid IDE, as well as a compiler, as well as libraries that are easy to integrate should one need them.&lt;/p&gt;
-
-&lt;p&gt;Secondly, with "How To Design Programs" (HTDP: &lt;a href="http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html"&gt;http://htdp.org/2003-09-26/Book/curriculum-Z-H-1.html&lt;/a&gt;) along with the companion (&lt;a href="http://htdp.org/2003-09-26/Companion/"&gt;http://htdp.org/2003-09-26/Companion/&lt;/a&gt;), the language being used grows with your ability and learning. &lt;br&gt;
-&lt;em&gt;Note: I know there is a second version of the book, but it isn't complete yet, and you can go through after and see what changes/updates have happened if you really want to stick with Racket.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, as to why I'm changing how I feel about it, I wanted to follow a Scheme with an interpreter/compiler that was (or is) going to continue following the Scheme standards. AFAIK Racket does not plan on following R7RS (the current "standard" for Scheme), but is forging its own path (again, there is &lt;strong&gt;nothing&lt;/strong&gt; wrong with this, it just doesn't fit my needs/wants in a Scheme).&lt;/p&gt;
-
-&lt;p&gt;So, to reiterate in closing: I still have a LOT of respect and fond feelings for Racket, I just do not see a point in following a language that doesn't give me what I want from it. Scheme being a minimalist language (at heart), is something that I would like to see more of, at least as an option. R6RS is already a very full-featured Scheme, and I agree with the "Steering Committee" that there should be a minimalist version of R7RS as well as a more feature heavy one, but standardized to "be a Scheme" (yes, if this sounds like nit-picking, it is).&lt;/p&gt;
-
-&lt;p&gt;--The Perplexed One&lt;/p&gt;
-
-&lt;p&gt;(note: currently seeking Scheme)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://lamentconfiguration.github.io/PerplexedBlogging/"&gt;http://lamentconfiguration.github.io/PerplexedBlogging/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
